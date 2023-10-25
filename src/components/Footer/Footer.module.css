@@ -1,108 +1,95 @@
 .footer {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.4;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  background-color: #0a0808;
-  color: grey;
-}
-
-.rowLogo {
-  margin-bottom: 0px;
-}
-
-.logo {
-  width: 79px;
-  height: 79px;
-}
-
-.textPart {
-  display: flex;
-}
-
-.textPart > div:not(:last-child) {
-  margin-right: 60px;
-  width: 207px;
-}
-
-.part1_text {
-  margin-bottom: 25px;
-}
-
-.linkSocialList {
-  display: flex;
-}
-
-.listLinksName {
-  color: white;
+  background-color: #091242;
+  font-family: "Krub", sans-serif;
   font-weight: 500;
-  line-height: 1.17;
-  margin-bottom: 8px;
-}
-
-.socialLinkItem:not(:last-child) {
-  margin-right: 10px;
-}
-
-.linkList {
-  display: flex;
-  flex-direction: column;
-}
-
-.linkList a:not(:last-child) {
-  padding: 0;
-  margin-bottom: 10px;
-}
-
-.navlink {
-  color: grey;
-  line-height: 1.17;
-}
-
-.part4 {
-  flex: 1;
-}
-
-.label {
+  font-size: 16px;
+  line-height: 2.5;
+  padding-top: 0px;
+  padding-bottom: 0px;
   color: #ffffff;
-  margin-bottom: 13px;
 }
 
-.inputSubscribe {
-  background-color: #0a0808;
-  color: grey;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.17;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 32px;
+.firstPartFooter {
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
-.inputSubscribe::placeholder {
-  color: grey;
+.footerFirstColumn {
+  background-color: #091242;
 }
 
-.subscribeGroup {
-  margin-bottom: 15px;
+.footerColumn {
+  padding: 43px 50px 43px 40px;
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  line-height: 1.19;
 }
 
-.linkPaymentList {
+.footerText {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.52;
+  color: #e8e8e8;
+  margin-bottom: 30px;
+}
+
+.contactItem {
   display: flex;
   align-items: center;
 }
 
-.paymentItem:not(:last-child) {
-  margin-right: 15px;
+.contactItem:not(:last-child) {
+  margin-bottom: 30px;
 }
 
-.buttonSubscribe:hover,
-.buttonSubscribe:focus {
-  color: var(--color_hover);
-  background-color: var(--background_color_hover);
-  outline: none;
-  border: 1px solid var(--background_color_hover);
+.contactInfo {
+  font-family: "Krub", sans-serif;
+  font-size: 14px;
+  line-height: 1.35;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contactInfo::before {
+  content: "";
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 17px;
+}
+
+.contactIconTime::before {
+  background-image: url("../../images/header/iconTime.png");
+}
+
+.contactIconEmail::before {
+  background-image: url("../../images/header/iconEmail.png");
+}
+
+.contactIconPhone::before {
+  background-image: url("../../images/header/iconPhone.png");
+}
+
+.footerListItem {
+  display: flex;
+}
+
+.footerListItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footerListLink {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.divFlex {
+  display: flex;
 }

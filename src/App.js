@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 /* import MainSection from "./components/MainSection/MainSection";
 import AdvantagesSection from "./components/AdvantagesSection/AdvantagesSection";
 import ProductSection from "./components/ProductSection/ProductSection";
@@ -11,13 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <MainSection />
-      <AdvantagesSection />
-      <ProductSection />
-      <PricingSection />
-      <OrderSection />
-      <ContactSection /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -50,22 +50,3 @@
 .contactIconPhone::before {
   background-image: url("../../images/header/iconPhone.png");
 }
-
-/* .header a {
-  padding: 0;
-}
-
-.navlink {
-  font-size: var(--middle_font_size);
-  font-weight: 400;
-  text-align: center;
-}
-
-.navlink:not(:last-child) {
-  margin-right: 55px;
-}
-
-.navlink:hover,
-.navlink:focus {
-  color: var(--color_hover);
-} */

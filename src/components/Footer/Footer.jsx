@@ -1,187 +1,166 @@
 import css from "./Footer.module.css";
 import Container from "react-bootstrap/Container";
-/* import Row from "react-bootstrap/Row";
+import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import logo from "../../images/logo.png";
+import InputGroup from "react-bootstrap/InputGroup";
+
 import facebook from "../../images/footer/facebook.svg";
 import twitter from "../../images/footer/twitter.svg";
-import instagram from "../../images/footer/instagram.svg";
 import linkedin from "../../images/footer/linkedin.svg";
 import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
-import InputGroup from "react-bootstrap/InputGroup";
-import paypal from "../../images/footer/paypal.svg";
-import mastercard from "../../images/footer/mastercard.svg";
-import visa from "../../images/footer/visa.svg";
-import Notiflix from "notiflix"; */
+
+import Notiflix from "notiflix";
+import Button from "react-bootstrap/Button";
+import { useState } from "react";
 
 const Footer = () => {
+  const [validated, setValidated] = useState(false);
+
+  const handleSubmit = (event) => {
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    setValidated(true);
+  };
   return (
     <footer className={css.footer}>
-      <Container>
-        {/* <Row className={`${css.rowLogo}  d-flex justify-content-between`}>
-          <Col xs={5}>
-            <a href="/home">
-              <img
-                className={css.logo}
-                src={logo}
-                width="79px"
-                alt="site logo"
-              />
-            </a>
-          </Col>
-        </Row>
-        <div className={css.textPart}>
-          <div className={css.part1}>
-            <p className={css.part1_text}>
-              Some food has looked so awful that it's looked like something that
-              the dog's brought home.
-            </p>
-            <p className={css.listLinksName}>Follow us</p>
-            <ul className={css.linkSocialList}>
-              <li className={css.socialLinkItem}>
-                <a href="/">
-                  <img src={facebook} alt="facebook icon" />
-                </a>
-              </li>
-
-              <li className={css.socialLinkItem}>
-                <a href="/">
-                  <img src={twitter} alt="twitter icon" />
-                </a>
-              </li>
-              <li className={css.socialLinkItem}>
-                <a href="/">
-                  <img src={instagram} alt="instagram icon" />
-                </a>
-              </li>
-              <li className={css.socialLinkItem}>
-                <a href="/">
-                  <img src={linkedin} alt="linkedin icon" />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className={css.part2}>
-            <Nav className={css.linkList}>
-              <Nav.Link
-                href="#home"
-                className={`${css.navlink} footer link p-0`}
-              >
-                Home
-              </Nav.Link>
-              <Nav.Link
-                href="#product"
-                className={`${css.navlink} footer link p-0`}
-              >
-                Product
-              </Nav.Link>
-              <Nav.Link
-                href="#blog"
-                className={`${css.navlink} footer link p-0`}
-              >
-                Blog
-              </Nav.Link>
-              <Nav.Link
-                href="#pricing"
-                className={`${css.navlink} footer link p-0`}
-              >
-                Pricing
-              </Nav.Link>
-              <Nav.Link
-                href="#testimonials"
-                className={`${css.navlink} footer link p-0`}
-              >
-                Testimonials
-              </Nav.Link>
-              <Nav.Link
-                href="#contact_us"
-                className={`${css.navlink} footer link p-0`}
-              >
-                Contact Us
-              </Nav.Link>
-            </Nav>
-          </div>
-          <div className={css.part3}>
-            <Nav className={css.linkList}>
-              <Nav.Link
-                href="/delivery_information"
-                className={`${css.navlink} link p-0`}
-              >
-                Delivery Information
-              </Nav.Link>
-              <Nav.Link
-                href="/privacy_policy"
-                className={`${css.navlink}  link p-0`}
-              >
-                Privacy Policy
-              </Nav.Link>
-              <Nav.Link
-                href="/terms_condition"
-                className={`${css.navlink}  link p-0`}
-              >
-                Terms & Condition
-              </Nav.Link>
-              <Nav.Link
-                href="/search_terms"
-                className={`${css.navlink}  link p-0`}
-              >
-                Search Terms
-              </Nav.Link>
-              <Nav.Link
-                href="/order_return"
-                className={`${css.navlink}  link p-0`}
-              >
-                Order & Return
-              </Nav.Link>
-            </Nav>
-          </div>
-          <div className={css.part4}>
-            <Form.Label htmlFor="basic-url" className={css.label}>
-              Newsletter
-            </Form.Label>
-            <InputGroup
-              className={`${css.subscribeGroup} mb-3 border border-danger rounded`}
+      <div className={css.firstPartFooter}>
+        <Container>
+          <Row className={css.footerFirstRow}>
+            <Col
+              xs={4}
+              className={`${css.footerColumn} ${css.footerFirstColumn}`}
             >
-              <Form.Control
-                placeholder="Your Email"
-                aria-label="Your Email"
-                aria-describedby="basic-addon2"
-                id="basic-url"
-                className={css.inputSubscribe}
-              />
-              <Button
-                variant="danger"
-                id="button-addon2"
-                className={css.buttonSubscribe}
-                onClick={() => {
-                  Notiflix.Notify.success("You are subcribed!");
-                }}
-              >
-                Subscribe
-              </Button>
-            </InputGroup>
-            <ul className={css.linkPaymentList}>
-              <li className={css.paymentItem}>
-                <a href="/">
-                  <img src={paypal} alt="paypal icon" />
-                </a>
-              </li>
-              <li className={css.paymentItem}>
-                <a href="/">
-                  <img src={mastercard} alt="mastercard icon" />
-                </a>
-              </li>
-              <li className={css.paymentItem}>
-                <a href="/">
-                  <img src={visa} alt="visa icon" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div> */}
-      </Container>
+              <a href="/">
+                <img src={logo} height="36px" alt="site logo" />
+              </a>
+            </Col>
+            <Col xs={2} className={css.footerColumn}>
+              Pages
+            </Col>
+            <Col xs={2} className={css.footerColumn}>
+              Utility
+            </Col>
+            <Col xs={4} className={css.footerColumn}>
+              Subscribe
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className={css.secondPartFooter}>
+        <Container>
+          <Row className={css.footerSecondRow}>
+            <Col xs={4} className={css.footerColumn}>
+              <p className={css.footerText}>
+                Leverage agile frameworks to provide a <br />
+                robust synopsis for strategy collaborative thinking to further
+                the overall value proposition.
+              </p>
+              <ul className={css.contactList}>
+                <li className={css.contactItem}>
+                  <a
+                    href="mailto:contact@logistics.com"
+                    className={`${css.contactInfo} ${css.contactIconEmail}`}
+                  >
+                    Email <br />
+                    contact@logistics.com
+                  </a>
+                </li>
+                <li className={css.contactItem}>
+                  <a
+                    href="tel:00112365489"
+                    className={`${css.contactInfo} ${css.contactIconPhone}`}
+                  >
+                    Call Us <br />
+                    (00) 112 365 489
+                  </a>
+                </li>
+              </ul>
+            </Col>
+            <Col xs={2} className={css.footerColumn}>
+              <ul className={css.footerList}>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    About Us
+                  </a>
+                </li>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Our Team
+                  </a>
+                </li>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Our Project
+                  </a>
+                </li>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Pricing
+                  </a>
+                </li>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </Col>
+            <Col xs={2} className={css.footerColumn}>
+              <ul className={css.footerList}>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Style Guide
+                  </a>
+                </li>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Changelog
+                  </a>
+                </li>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Licenses
+                  </a>
+                </li>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Protected
+                  </a>
+                </li>
+                <li className={css.footerListItem}>
+                  <a className={css.footerListLink} href="/">
+                    Not Found
+                  </a>
+                </li>
+              </ul>
+            </Col>
+            <Col xs={4} className={css.footerColumn}>
+              <Form noValidate validated={validated} onSubmit={handleSubmit}>
+                <Row className="mb-3">
+                  <Form.Group as={Col} xs="12" controlId="validationCustom01">
+                    <Form.Control
+                      required
+                      type="email"
+                      placeholder="Email here*"
+                    />
+                    <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                  </Form.Group>
+                </Row>
+                <div className={css.divFlex}>
+                  <Button type="submit">Send now</Button>
+                  <p>ssd</p>
+                </div>
+              </Form>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </footer>
   );
 };
