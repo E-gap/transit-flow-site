@@ -1,0 +1,71 @@
+.header {
+  background-color: #091242;
+  color: #ffffff;
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  padding: 46px 0px;
+}
+
+.contactList {
+  display: flex;
+  margin-left: auto;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+
+.contactItem:not(:last-child) {
+  margin-right: 39px;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contactInfo::before {
+  content: "";
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 17px;
+}
+
+.contactIconTime::before {
+  background-image: url("../../images/header/iconTime.png");
+}
+
+.contactIconEmail::before {
+  background-image: url("../../images/header/iconEmail.png");
+}
+
+.contactIconPhone::before {
+  background-image: url("../../images/header/iconPhone.png");
+}
+
+/* .header a {
+  padding: 0;
+}
+
+.navlink {
+  font-size: var(--middle_font_size);
+  font-weight: 400;
+  text-align: center;
+}
+
+.navlink:not(:last-child) {
+  margin-right: 55px;
+}
+
+.navlink:hover,
+.navlink:focus {
+  color: var(--color_hover);
+} */
