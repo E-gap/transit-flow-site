@@ -1,0 +1,60 @@
+.navBarComponent {
+  background-color: rgba(9, 18, 66, 0.25);
+
+  padding: 30px 0px;
+}
+
+.navLink {
+  color: #ffffff;
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.29;
+}
+
+.dropdown > a {
+  color: #ffffff;
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.29;
+}
+
+.navBar,
+.navBar * {
+  padding: 0;
+}
+
+.navDivider {
+  color: blue;
+  width: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.socialLinksList {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.socialLinksItem:not(:last-child) {
+  margin-right: 40px;
+}
+
+.socialLink {
+  color: white;
+  height: 19px;
+  display: flex;
+  align-items: center;
+}
+
+.linkIcon {
+  width: 19px;
+  height: 19px;
+}
+
+.socialLink:hover,
+.socialLink:focus {
+  color: var(--color-hover-link);
+}
