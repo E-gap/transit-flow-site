@@ -1,16 +1,76 @@
 .homeWeDo {
+  padding: 96px 0px;
 }
 
 .allPartSection {
-  height: 797px;
   color: rgba(28, 31, 53, 1);
-  padding-top: 173px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divText {
+  margin-right: 100px;
+}
+
+.divText h1 {
+  width: 294px;
+}
+
+.servicesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
 }
 
 h1 {
   font-family: "Rubik", sans-serif;
-  font-weight: 700;
-  font-size: 60px;
+  font-weight: 600;
+  font-size: 35px;
   line-height: 1.185;
-  margin-bottom: 10px;
+}
+
+.servicesItem {
+  display: flex;
+  width: 410px;
+  align-items: flex-start;
+}
+
+.servicesItem h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.185;
+  margin-bottom: 20px;
+}
+
+.servicesItem p {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.515;
+  color: rgba(102, 108, 137, 1);
+}
+
+.icon {
+  width: 85px;
+  height: 115px;
+}
+
+.servicesItemText::before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 110px;
+  background-color: rgba(216, 216, 216, 1);
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.servicesItemText {
+  display: flex;
 }
