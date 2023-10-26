@@ -1,0 +1,27 @@
+button {
+  padding: 19px 48px;
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.light {
+  color: black;
+  background-image: url("../../images/buttonUser/bg-light-default.jpg");
+}
+
+.light:hover,
+.light:focus {
+  background-image: url("../../images/buttonUser/bg-light-hover.jpg");
+}
+
+.dark {
+  color: white;
+  background-image: url("../../images/buttonUser/bg-dark-default.jpg");
+}
+
+.dark:hover,
+.dark:focus {
+  background-image: url("../../images/buttonUser/bg-dark-hover.jpg");
+}

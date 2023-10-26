@@ -1,12 +1,15 @@
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import NavBarComponent from "./components/NavBarComponent/NavBarComponent";
+
+import HomeMain from "./components/HomeMain/HomeMain";
+import HomeWeDo from "./components/HomeWeDo/HomeWeDo";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <NavBarComponent />
+      <HomeMain />
+      <HomeWeDo />
       <Footer />
     </div>
   );
