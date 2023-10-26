@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import LittleText from "../LittleText/LittleText";
 import plane_photo from "../../images/homeWhyUs/plane_photo.jpg";
 import girl_photo from "../../images/homeWhyUs/girl_photo.png";
+import ButtonUser from "../ButtonUser/ButtonUser";
 
 const HomeWhyUs = () => {
   return (
@@ -78,6 +79,7 @@ const HomeWhyUs = () => {
             </p>
           </li>
         </ul>
+        <ButtonUser text="More work" view="dark" />
       </div>
       <div className={css.bg_2}></div>
     </section>
