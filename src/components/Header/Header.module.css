@@ -29,6 +29,13 @@
   text-decoration: none;
 }
 
+.contactIconEmail:hover,
+.contactIconPhone:hover,
+.contactIconEmail:focus,
+.contactIconPhone:focus {
+  color: var(--color-hover-link);
+}
+
 .contactInfo::before {
   content: "";
   display: inline-block;

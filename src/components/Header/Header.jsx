@@ -1,17 +1,8 @@
 import css from "./Header.module.css";
 import Container from "react-bootstrap/Container";
-/* import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav"; */
 import logo from "../../images/logo.png";
-// import ButtonUser from "../Button/Button";
-// import { useState } from "react";
 
 const Header = () => {
-  /* const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleClose = () => setIsModalOpen(false); */
-  /* const handleShow = () => setIsModalOpen(true); */
-
   return (
     <header className={css.header}>
       <Container className="d-flex align-items-center">

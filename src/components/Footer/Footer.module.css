@@ -38,6 +38,11 @@
   align-items: center;
 }
 
+.contactInfo:hover,
+.contactInfo:focus {
+  color: var(--color-hover-link);
+}
+
 .contactItem:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -79,7 +84,7 @@
 }
 
 .footerListItem:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .footerListLink {
@@ -90,6 +95,63 @@
   text-decoration: none;
 }
 
+.footerListLink:hover,
+.footerListLink:focus {
+  color: var(--color-hover-link);
+}
+
 .divFlex {
   display: flex;
+}
+.emailInput {
+  padding: 15px 30px;
+  border-radius: 0;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #091242;
+  color: rgba(153, 153, 153, 1);
+  border: 1px solid rgba(78, 86, 131, 1);
+  margin-bottom: 10px;
+}
+
+.emailInput::placeholder {
+  color: rgba(153, 153, 153, 1);
+}
+
+.sendButton {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 0px;
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #23212a;
+  text-decoration: none;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  margin-right: 40px;
+}
+
+.socialLinksList {
+  display: flex;
+  align-items: center;
+}
+
+.socialLinksItem:not(:last-child) {
+  margin-right: 40px;
+}
+
+.linkIcon {
+  color: white;
+}
+
+.linkIcon:hover,
+.linkIcon:focus {
+  color: var(--color-hover-link);
 }

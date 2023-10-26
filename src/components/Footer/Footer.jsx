@@ -3,17 +3,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import logo from "../../images/logo.png";
-import InputGroup from "react-bootstrap/InputGroup";
-
-import facebook from "../../images/footer/facebook.svg";
-import twitter from "../../images/footer/twitter.svg";
-import linkedin from "../../images/footer/linkedin.svg";
-import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
-
-import Notiflix from "notiflix";
+// import Notiflix from "notiflix";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
+import { SiLinkedin } from "react-icons/si";
+import { FaTwitter, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   const [validated, setValidated] = useState(false);
@@ -145,6 +140,7 @@ const Footer = () => {
                 <Row className="mb-3">
                   <Form.Group as={Col} xs="12" controlId="validationCustom01">
                     <Form.Control
+                      className={css.emailInput}
                       required
                       type="email"
                       placeholder="Email here*"
@@ -153,8 +149,26 @@ const Footer = () => {
                   </Form.Group>
                 </Row>
                 <div className={css.divFlex}>
-                  <Button type="submit">Send now</Button>
-                  <p>ssd</p>
+                  <Button className={css.sendButton} type="submit">
+                    Send now
+                  </Button>
+                  <ul className={css.socialLinksList}>
+                    <li className={css.socialLinksItem}>
+                      <a href="/" className={css.linkIcon}>
+                        <SiLinkedin />
+                      </a>
+                    </li>
+                    <li className={css.socialLinksItem}>
+                      <a href="/" className={css.linkIcon}>
+                        <FaTwitter />
+                      </a>
+                    </li>
+                    <li className={css.socialLinksItem}>
+                      <a href="/" className={css.linkIcon}>
+                        <FaFacebook />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </Form>
             </Col>
