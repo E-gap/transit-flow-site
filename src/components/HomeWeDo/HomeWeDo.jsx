@@ -67,7 +67,6 @@ const HomeWeDo = () => {
               </div>
             </li>
           </ul>
-          <></>
         </div>
       </Container>
     </section>

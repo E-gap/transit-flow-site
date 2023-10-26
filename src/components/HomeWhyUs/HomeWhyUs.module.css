@@ -1,0 +1,223 @@
+.homeWhyUs {
+  padding: 0;
+}
+
+.allPartSection {
+  color: rgba(28, 31, 53, 1);
+  position: relative;
+  bottom: 150px;
+  margin-bottom: -150px;
+}
+
+.whyUsDiv {
+  background-color: white;
+  padding-top: 85px;
+  padding-left: 86px;
+  padding-right: 86px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.whyUsDiv_text {
+  width: 472px;
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 1.185;
+}
+
+.whyUsDiv_text p {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.515;
+  color: rgba(102, 108, 137, 1);
+}
+
+.text_1 {
+  margin-bottom: 20px;
+}
+
+.text_2 {
+  margin-bottom: 20px;
+}
+
+.advantagesList li {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.185;
+  display: flex;
+  align-items: center;
+}
+
+.advantagesItem_1 {
+  margin-bottom: 20px;
+}
+
+.advantagesList li::before {
+  content: "";
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  margin-right: 20px;
+}
+
+.advantagesItem_1::before {
+  background-image: url("../../images/homeWhyUs/advantage_1.png");
+}
+
+.advantagesItem_2::before {
+  background-image: url("../../images/homeWhyUs/advantage_2.png");
+}
+
+.whyUsDiv_photo {
+  position: relative;
+  margin-left: 100px;
+}
+
+.whyUsDiv_photo_girl {
+  position: absolute;
+  left: -110px;
+  bottom: -30px;
+}
+
+.indicatorsList {
+  padding-left: 86px;
+  padding-right: 86px;
+  display: flex;
+}
+
+.indicatorsList li {
+  display: flex;
+  padding: 42px 0px;
+  border: 1px solid rgba(212, 212, 212, 1);
+  width: calc(100% / 2);
+  justify-content: center;
+}
+
+.indicatorsList li:first-child {
+  border-left: none;
+}
+
+.indicatorsList li:last-child {
+  border-right: none;
+}
+
+.indicatorsList span {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.185;
+}
+
+.indicatorsList p {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.92;
+  display: flex;
+  align-items: center;
+}
+
+.indicatorsList p::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
+
+.transporting {
+  position: relative;
+  top: 120px;
+}
+
+.transporting h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.transportingList {
+  display: flex;
+  justify-content: center;
+}
+
+.transportingList li {
+  width: 320px;
+  height: 408px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.transportingList li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.transportingList li:nth-child(1) {
+  background-image: url("../../images/homeWhyUs/transportation_1.jpg");
+}
+
+.transportingList li:nth-child(2) {
+  background-image: url("../../images/homeWhyUs/transportation_2.jpg");
+}
+
+.transportingList li:nth-child(3) {
+  background-image: url("../../images/homeWhyUs/transportation_3.jpg");
+}
+
+.transportingList li:nth-child(4) {
+  background-image: url("../../images/homeWhyUs/transportation_4.jpg");
+}
+
+.transportingList li:nth-child(5) {
+  background-image: url("../../images/homeWhyUs/transportation_5.jpg");
+}
+
+.transportingText {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.185;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.transportingText span {
+  font-family: "Krub", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.515;
+  color: rgba(255, 182, 41, 1);
+}
+
+.bg_1 {
+  height: 504px;
+  background-image: url("../../images/homeWhyUs/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_2 {
+  height: 400px;
+  background: linear-gradient(
+    95deg,
+    #ffb629 -1.19%,
+    #ffda56 57.78%,
+    #ffd7a6 115.08%
+  );
+}
