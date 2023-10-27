@@ -1,0 +1,113 @@
+.headlineButtons,
+.headlineButtons ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headlineButtons li {
+  width: 44px;
+  height: 44px;
+}
+
+.headlineButtons li:hover,
+.headlineButtons li:focus {
+  transform: scale(1.1);
+}
+
+.headlineButtons li:first-child {
+  margin-right: 10px;
+}
+
+.headlineButtons button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.buttonBack {
+  background-image: url("../../images/testimonials/button_back.png");
+}
+
+.buttonNext {
+  background-image: url("../../images/testimonials/button_next.png");
+}
+
+.testimonialList {
+  display: flex;
+}
+
+.testimonialItem:first-child {
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.testimonialItem:last-child {
+  background-color: rgba(9, 18, 66, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.testimonialItem {
+  width: calc(100% / 2);
+  padding: 62px 72px;
+}
+
+.testimonialAuthor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.testimonialAuthorPhoto {
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.viewAuthorName {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.authorName {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.authorCompany {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.quotes {
+  width: 73px;
+  height: 73px;
+  margin-left: auto;
+  border-radius: 50%;
+  background-image: url("../../images/testimonials/quotes.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.testimonialText {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.testimonialStarsList {
+  display: flex;
+}

@@ -48,3 +48,10 @@ button {
   position: absolute;
   top: 47px;
 }
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 1.185;
+}

@@ -12,7 +12,7 @@
   margin-right: 100px;
 }
 
-.divText h1 {
+.divText h2 {
   width: 294px;
 }
 
@@ -22,12 +22,12 @@
   gap: 55px;
 }
 
-h1 {
+/* h2 {
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 35px;
   line-height: 1.185;
-}
+} */
 
 .servicesItem {
   display: flex;
@@ -35,7 +35,7 @@ h1 {
   align-items: flex-start;
 }
 
-.servicesItem h2 {
+.servicesItem h3 {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 25px;
