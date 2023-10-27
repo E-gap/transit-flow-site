@@ -5,6 +5,7 @@ import HomeWeDo from "./components/HomeWeDo/HomeWeDo";
 import HomeWhyUs from "./components/HomeWhyUs/HomeWhyUs";
 import HomeTestimonial from "./components/HomeTestimonial/HomeTestimonial";
 import HomeWhyChoose from "./components/HomeWhyChoose/HomeWhyChoose";
+import HomeTeam from "./components/HomeTeam/HomeTeam";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HomeWhyUs />
       <HomeTestimonial />
       <HomeWhyChoose />
+      <HomeTeam />
       <Footer />
     </div>
   );
