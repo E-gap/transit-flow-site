@@ -18,12 +18,6 @@ const Carousel = () => {
     } else setSlide(slide + 1);
   };
 
-  /* const numberPrevSlide = (slide) => {
-    if (slide === 0) {
-      return testimonials.length - 1;
-    } else return slide - 1;
-  }; */
-
   const numberNextSlide = (slide) => {
     if (slide + 1 === testimonials.length) {
       return 0;
@@ -63,7 +57,7 @@ const Carousel = () => {
           <ul className={css.testimonialStarsList}>
             {Array.from({ length: testimonials[slide].grade }, (v, k) => {
               return (
-                <li>
+                <li key={k}>
                   <img src={star_icon} alt="stars grade" />
                 </li>
               );
@@ -94,7 +88,7 @@ const Carousel = () => {
           <ul className={css.testimonialStarsList}>
             {Array.from({ length: testimonials[slide].grade }, (v, k) => {
               return (
-                <li>
+                <li key={k}>
                   <img src={star_icon} alt="stars grade" />
                 </li>
               );

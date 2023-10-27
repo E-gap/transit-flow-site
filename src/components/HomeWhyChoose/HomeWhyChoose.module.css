@@ -1,0 +1,99 @@
+.homeWhyChoose {
+  color: rgba(28, 31, 53, 1);
+  padding: 0px 0px;
+  display: flex;
+}
+
+.homeWhyChoose > div {
+  width: calc(100% / 2);
+}
+
+.homeWhyChoose > div:first-child {
+  width: calc(100% / 2);
+  background-color: rgba(9, 18, 66, 1);
+}
+
+.planeDiv {
+  position: relative;
+  padding-top: 143.5px;
+  padding-bottom: 143.5px;
+}
+
+.homeWhyChoose img {
+  position: relative;
+  left: 140px;
+  width: 100%;
+}
+
+.span {
+  position: absolute;
+  bottom: 143.5px;
+  left: calc(100% / 2.5);
+  display: block;
+  width: 417px;
+  height: 139px;
+  background-image: url("../../images/homeWhyChoose/bg_span.jpg");
+}
+
+.textDiv {
+  padding-left: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.textDiv h2 {
+  margin-bottom: 20px;
+}
+
+.textDiv_text {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.advantagesList {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.advantagesItem {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.advantagesItem::before {
+  content: "";
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.advantagesItem:nth-child(1):before {
+  background-image: url("../../images/homeWhyChoose/advantage_1.png");
+}
+
+.advantagesItem:nth-child(2):before {
+  background-image: url("../../images/homeWhyChoose/advantage_2.png");
+}
+.advantagesItem:nth-child(3):before {
+  background-image: url("../../images/homeWhyChoose/advantage_3.png");
+}
+.advantagesItem:nth-child(4):before {
+  background-image: url("../../images/homeWhyChoose/advantage_4.png");
+}
+.advantagesItem:nth-child(5):before {
+  background-image: url("../../images/homeWhyChoose/advantage_5.png");
+}
+.advantagesItem:nth-child(6):before {
+  background-image: url("../../images/homeWhyChoose/advantage_6.png");
+}
