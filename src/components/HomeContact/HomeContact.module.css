@@ -3,6 +3,76 @@
   background-color: rgba(9, 18, 66, 1);
 }
 
+.homeContact_text {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
 .allPartSection {
   color: white;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+
+.contactItem:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contactIconEmail:hover,
+.contactIconPhone:hover,
+.contactIconEmail:focus,
+.contactIconPhone:focus {
+  color: var(--color-hover-link);
+}
+
+.contactInfo::before {
+  content: "";
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 17px;
+}
+
+.contactIconTime::before {
+  background-image: url("../../images/header/iconTime.png");
+}
+
+.contactIconEmail::before {
+  background-image: url("../../images/header/iconEmail.png");
+}
+
+.contactIconPhone::before {
+  background-image: url("../../images/header/iconPhone.png");
+}
+
+.grid {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 353px 758px;
+}
+
+.form {
+  margin-bottom: 80px;
+}
+
+.homeContact_bottom_background {
+  height: 234px;
+  background-image: url("../../images/homeContact/bg_home_contact_bottom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
