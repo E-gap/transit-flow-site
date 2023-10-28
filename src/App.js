@@ -7,7 +7,7 @@ import HomeTestimonial from "./components/HomeTestimonial/HomeTestimonial";
 import HomeWhyChoose from "./components/HomeWhyChoose/HomeWhyChoose";
 import HomeTeam from "./components/HomeTeam/HomeTeam";
 import HomeContact from "./components/HomeContact/HomeContact";
-
+import HomeBlog from "./components/HomeBlog/HomeBlog";
 function App() {
   return (
     <div className="App">
@@ -19,6 +19,7 @@ function App() {
       <HomeWhyChoose />
       <HomeTeam />
       <HomeContact />
+      <HomeBlog />
       <Footer />
     </div>
   );

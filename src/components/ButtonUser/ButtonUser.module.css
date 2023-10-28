@@ -9,6 +9,7 @@
 .light {
   color: black;
   background-image: url("../../images/buttonUser/bg-light-default.jpg");
+  background-position: center;
 }
 
 .light:hover,
@@ -19,6 +20,7 @@
 .dark {
   color: white;
   background-image: url("../../images/buttonUser/bg-dark-default.jpg");
+  background-position: center;
 }
 
 .dark:hover,

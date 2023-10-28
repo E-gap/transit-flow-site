@@ -1,0 +1,127 @@
+.homeBlog {
+  padding-top: 95px;
+}
+
+.allPartSection {
+  color: rgba(28, 31, 53, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeBlog_headline {
+  margin-bottom: 30px;
+}
+
+.blogList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.blogItem {
+  display: inline-grid;
+  grid-template-columns: 453px 85px 364px;
+  column-gap: 20px;
+  padding: 30px 0px;
+}
+
+.blogItem:first-child {
+  border-top: 1px solid rgba(214, 214, 214, 1);
+  border-bottom: 1px solid rgba(214, 214, 214, 1);
+}
+
+.blogItem:not(:first-child) {
+  border-bottom: 1px solid rgba(214, 214, 214, 1);
+}
+
+.blogItem_photoLink {
+  position: relative;
+  text-decoration: none;
+  display: block;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.blogItem_photoLink:hover {
+  .photoLink_overlay {
+    display: flex;
+  }
+}
+
+.photoLink_overlay {
+  display: none;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.375;
+  color: white;
+}
+
+.photoLink_overlay_button {
+  background-color: rgba(28, 31, 53, 0.91);
+  width: 373px;
+  height: 223px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photoLink_button .blogItem_text_div {
+  padding: 10px 0px 20px 20px;
+  border-left: 1px solid rgba(214, 214, 214, 1);
+}
+
+.blogItem_headline {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.blogItem_headline:hover,
+.blogItem_headline:focus {
+  color: rgba(255, 190, 52, 1);
+}
+
+.blogItem_text {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(102, 108, 137, 1);
+  margin-bottom: 20px;
+}
+
+.blogItem_list_text {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.688;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.bg_bottom {
+  height: 412px;
+  background-image: url("../../images/homeBlog/bg_bottom.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 95px;
+}
