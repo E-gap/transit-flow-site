@@ -6,6 +6,7 @@ import HomeWhyUs from "./components/HomeWhyUs/HomeWhyUs";
 import HomeTestimonial from "./components/HomeTestimonial/HomeTestimonial";
 import HomeWhyChoose from "./components/HomeWhyChoose/HomeWhyChoose";
 import HomeTeam from "./components/HomeTeam/HomeTeam";
+import HomeContact from "./components/HomeContact/HomeContact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <HomeTestimonial />
       <HomeWhyChoose />
       <HomeTeam />
+      <HomeContact />
       <Footer />
     </div>
   );
