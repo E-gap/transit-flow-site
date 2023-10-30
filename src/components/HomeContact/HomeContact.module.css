@@ -69,10 +69,3 @@
 .form {
   margin-bottom: 80px;
 }
-
-.homeContact_bottom_background {
-  height: 234px;
-  background-image: url("../../images/homeContact/bg_home_contact_bottom.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}

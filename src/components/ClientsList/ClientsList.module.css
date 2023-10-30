@@ -1,0 +1,8 @@
+.clientsList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.clientsItem img {
+  width: 100%;
+}

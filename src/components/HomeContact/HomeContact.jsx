@@ -2,6 +2,7 @@ import css from "./HomeContact.module.css";
 import Container from "react-bootstrap/Container";
 import LittleText from "../LittleText/LittleText";
 import FormContact from "../FormContact/FormContact";
+import ClientsList from "../ClientsList/ClientsList";
 
 const HomeContact = () => {
   return (
@@ -48,7 +49,7 @@ const HomeContact = () => {
               <FormContact />
             </div>
           </div>
-          <div className={css.homeContact_bottom_background}></div>
+          <ClientsList />
         </div>
       </Container>
     </section>

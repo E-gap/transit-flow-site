@@ -27,3 +27,8 @@
 .dark:focus {
   background-image: url("../../images/buttonUser/bg-dark-hover.jpg");
 }
+
+.buttonLink {
+  text-decoration: none;
+  color: inherit;
+}
