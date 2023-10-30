@@ -1,6 +1,13 @@
-.aboutUsWeDo {
+.whatWeDo {
   padding-top: 103px;
   padding-bottom: 103px;
+}
+
+.white {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.grey {
   background-color: rgba(244, 244, 244, 1);
 }
 

@@ -1,0 +1,11 @@
+.servicesMain {
+  background: url("../../images/servicesMain/bg_services_main.png") no-repeat,
+    url("../../images/servicesMain/bg_services_main_photo.jpg") no-repeat;
+  background-size: cover, cover;
+}
+
+.allPartSection {
+  height: 419px;
+  color: white;
+  padding-top: 119px;
+}

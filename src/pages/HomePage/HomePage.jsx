@@ -1,7 +1,7 @@
 import HomeMain from "../../components/HomeMain/HomeMain";
 import HomeWeDo from "../../components/HomeWeDo/HomeWeDo";
 import HomeWhyUs from "../../components/HomeWhyUs/HomeWhyUs";
-import HomeTestimonial from "../../components/HomeTestimonial/HomeTestimonial";
+import Testimonial from "../../components/Testimonial/Testimonial";
 import HomeWhyChoose from "../../components/HomeWhyChoose/HomeWhyChoose";
 import HomeTeam from "../../components/HomeTeam/HomeTeam";
 import HomeContact from "../../components/HomeContact/HomeContact";
@@ -13,7 +13,7 @@ const HomePage = () => {
       <HomeMain />
       <HomeWeDo />
       <HomeWhyUs />
-      <HomeTestimonial bg="white" />
+      <Testimonial bg="white" />
       <HomeWhyChoose />
       <HomeTeam />
       <HomeContact />

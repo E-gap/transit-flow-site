@@ -1,8 +1,8 @@
 import AboutUsMain from "../../components/AboutUsMain/AboutUsMain";
 import AboutUsAboutUs from "../../components/AboutUsAboutUs/AboutUsAboutUs";
-import AboutUsWeDo from "../../components/AboutUsWeDo/AboutUsWeDo";
+import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
 import HomeTeam from "../../components/HomeTeam/HomeTeam";
-import HomeTestimonial from "../../components/HomeTestimonial/HomeTestimonial";
+import Testimonial from "../../components/Testimonial/Testimonial";
 import AboutUsPricing from "../../components/AboutUsPricing/AboutUsPricing";
 import AboutUsFAQ from "../../components/AboutUsFAQ/AboutUsFAQ";
 import AboutUsClients from "../../components/AboutUsClients/AboutUsClients";
@@ -12,9 +12,9 @@ const AboutUsPage = () => {
     <>
       <AboutUsMain />
       <AboutUsAboutUs />
-      <AboutUsWeDo />
+      <WhatWeDo bg="grey" />
       <HomeTeam />
-      <HomeTestimonial bg="grey" />
+      <Testimonial bg="grey" />
       <AboutUsPricing />
       <AboutUsFAQ />
       <AboutUsClients />
