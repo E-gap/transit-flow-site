@@ -1,8 +1,8 @@
 import css from "./ClientsList.module.css";
-import client_1 from "../../images/aboutUsClients/client_1.jpg";
-import client_2 from "../../images/aboutUsClients/client_2.jpg";
-import client_3 from "../../images/aboutUsClients/client_3.jpg";
-import client_4 from "../../images/aboutUsClients/client_4.jpg";
+import client_1 from "../../images/clientsList/client_1.jpg";
+import client_2 from "../../images/clientsList/client_2.jpg";
+import client_3 from "../../images/clientsList/client_3.jpg";
+import client_4 from "../../images/clientsList/client_4.jpg";
 
 const ClientsList = () => {
   return (
