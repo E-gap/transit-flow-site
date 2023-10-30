@@ -13,7 +13,7 @@ const HomePage = () => {
       <HomeMain />
       <HomeWeDo />
       <HomeWhyUs />
-      <HomeTestimonial />
+      <HomeTestimonial bg="white" />
       <HomeWhyChoose />
       <HomeTeam />
       <HomeContact />

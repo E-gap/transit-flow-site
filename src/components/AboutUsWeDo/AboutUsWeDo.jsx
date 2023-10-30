@@ -13,7 +13,7 @@ const AboutUsWeDo = () => {
   return (
     <>
       <section className={css.aboutUsWeDo}>
-        <Container className="border">
+        <Container>
           <div className={css.allPartSection}>
             <LittleText text="What We Do" view="light" />
             <h2 className={css.section_headline}>Our Logistics Services</h2>

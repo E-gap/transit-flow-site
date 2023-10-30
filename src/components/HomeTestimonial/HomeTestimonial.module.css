@@ -1,7 +1,15 @@
 .homeTestimonial {
-  padding: 60px 0px;
+  padding: 103px 0px;
 }
 
 .allPartSection {
   color: rgba(28, 31, 53, 1);
+}
+
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: rgba(244, 244, 244, 1);
 }
