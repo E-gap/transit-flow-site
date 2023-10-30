@@ -1,25 +1,14 @@
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import HomeMain from "./components/HomeMain/HomeMain";
-import HomeWeDo from "./components/HomeWeDo/HomeWeDo";
-import HomeWhyUs from "./components/HomeWhyUs/HomeWhyUs";
-import HomeTestimonial from "./components/HomeTestimonial/HomeTestimonial";
-import HomeWhyChoose from "./components/HomeWhyChoose/HomeWhyChoose";
-import HomeTeam from "./components/HomeTeam/HomeTeam";
-import HomeContact from "./components/HomeContact/HomeContact";
-import HomeBlog from "./components/HomeBlog/HomeBlog";
+// import HomePage from "./pages/HomePage/HomePage";
+import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
+
 function App() {
   return (
     <div className="App">
       <Header />
-      <HomeMain />
-      <HomeWeDo />
-      <HomeWhyUs />
-      <HomeTestimonial />
-      <HomeWhyChoose />
-      <HomeTeam />
-      <HomeContact />
-      <HomeBlog />
+      {/* <HomePage /> */}
+      <AboutUsPage />
       <Footer />
     </div>
   );

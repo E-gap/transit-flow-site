@@ -1,0 +1,11 @@
+.aboutUsMain {
+  background: url("../../images/aboutUsMain/bg_about_us_main.png") no-repeat,
+    url("../../images/aboutUsMain/bg_about_us_main_photo.jpg") no-repeat;
+  background-size: cover, cover;
+}
+
+.allPartSection {
+  height: 419px;
+  color: white;
+  padding-top: 119px;
+}
