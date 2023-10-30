@@ -20,7 +20,7 @@ const FormContact = () => {
 
   return (
     <Form noValidate validated={validated} onSubmit={handleSubmit}>
-      <Row className="mb-4">
+      <Row className="mb-4 mx-0">
         <Form.Group
           as={Col}
           xs="6"
@@ -48,7 +48,7 @@ const FormContact = () => {
           />
         </Form.Group>
       </Row>
-      <Row className="mb-4">
+      <Row className="mb-4 mx-0">
         <Form.Group
           as={Col}
           xs="6"
@@ -76,7 +76,7 @@ const FormContact = () => {
           />
         </Form.Group>
       </Row>
-      <Row className="mb-4">
+      <Row className="mb-4 mx-0">
         <Form.Group as={Col} xs="12" className={css.formColumn}>
           <Form.Control
             as="textarea"
@@ -85,7 +85,7 @@ const FormContact = () => {
           />
         </Form.Group>
       </Row>
-      <Row>
+      <Row className="mx-0">
         <Col xs="4" className={css.formColumn}>
           <Button type="submit" className={css.submitButton}>
             Submit message
