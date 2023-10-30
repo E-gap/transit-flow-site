@@ -1,0 +1,42 @@
+.aboutUsWeDo {
+  padding-top: 103px;
+  padding-bottom: 103px;
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.allPartSection {
+  color: rgba(28, 31, 53, 1);
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_headline {
+  margin-bottom: 50px;
+}
+
+.works_list {
+  margin-bottom: 40px;
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 270px);
+  row-gap: 50px;
+  justify-content: space-between;
+}
+
+.works_item_text {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(102, 108, 137, 1);
+}
+
+.works_item img {
+  margin-bottom: 20px;
+}
+
+.works_item h3 {
+  margin-bottom: 20px;
+}

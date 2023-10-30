@@ -22,13 +22,6 @@
   gap: 55px;
 }
 
-/* h2 {
-  font-family: "Rubik", sans-serif;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 1.185;
-} */
-
 .servicesItem {
   display: flex;
   width: 420px;
@@ -36,10 +29,6 @@
 }
 
 .servicesItem h3 {
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.185;
   margin-bottom: 20px;
 }
 
