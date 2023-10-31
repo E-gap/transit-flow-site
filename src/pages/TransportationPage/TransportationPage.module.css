@@ -10,6 +10,10 @@
   display: flex;
 }
 
+.projects_allPartSection > div:not(:last-child) {
+  margin-bottom: 103px;
+}
+
 .projectDetails_text {
   margin-left: 100px;
 }
@@ -42,4 +46,63 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
+}
+
+.projects h2 {
+  margin-bottom: 15px;
+}
+
+.projects_text {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.projects_optionItem {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.projects_optionItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.projects_optionItem::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  background-image: url("../../images/serviceSingleDetails/errow_right.svg");
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.galleryList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.galleryItem {
+  position: relative;
+}
+
+.galleryItem:hover,
+.galleryItem:focus {
+  .photoLink_overlay {
+    display: block;
+  }
+}
+
+.photoLink_overlay {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
