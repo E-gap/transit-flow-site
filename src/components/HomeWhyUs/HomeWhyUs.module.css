@@ -23,13 +23,6 @@
   width: 472px;
 }
 
-/* h2 {
-  font-family: "Rubik", sans-serif;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 1.185;
-} */
-
 .whyUsDiv_text p {
   font-family: "Krub", sans-serif;
   font-weight: 500;
@@ -140,8 +133,12 @@
 }
 
 .transporting {
+  margin-top: -280px;
+}
+
+.transporting_relative_div {
   position: relative;
-  top: 120px;
+  top: 220px;
 }
 
 .transporting button {

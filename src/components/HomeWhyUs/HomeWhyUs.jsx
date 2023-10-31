@@ -51,37 +51,40 @@ const HomeWhyUs = () => {
         </div>
       </Container>
       <div className={css.transporting}>
-        <h2>Transporting Across The World</h2>
-        <ul className={css.transportingList}>
-          <li>
-            <p className={css.transportingText}>
-              Liquid Transportation <span>Premium Tankers</span>
-            </p>
-          </li>
-          <li>
-            <p className={css.transportingText}>
-              Packaging Solutions <span>Warehouse Management</span>
-            </p>
-          </li>
-          <li>
-            <p className={css.transportingText}>
-              Contract Logistics <span>Road Transportation</span>
-            </p>
-          </li>
-          <li>
-            <p className={css.transportingText}>
-              Warehouse & Distribution <span>Large Warehouse</span>
-            </p>
-          </li>
-          <li>
-            <p className={css.transportingText}>
-              Specialized Transport <span>Ocean Transports</span>
-            </p>
-          </li>
-        </ul>
-        <ButtonUser text="More work" view="dark" />
+        <div className={css.transporting_relative_div}>
+          <h2>Transporting Across The World</h2>
+          <ul className={css.transportingList}>
+            <li>
+              <p className={css.transportingText}>
+                Liquid Transportation <span>Premium Tankers</span>
+              </p>
+            </li>
+            <li>
+              <p className={css.transportingText}>
+                Packaging Solutions <span>Warehouse Management</span>
+              </p>
+            </li>
+            <li>
+              <p className={css.transportingText}>
+                Contract Logistics <span>Road Transportation</span>
+              </p>
+            </li>
+            <li>
+              <p className={css.transportingText}>
+                Warehouse & Distribution <span>Large Warehouse</span>
+              </p>
+            </li>
+            <li>
+              <p className={css.transportingText}>
+                Specialized Transport <span>Ocean Transports</span>
+              </p>
+            </li>
+          </ul>
+          <ButtonUser text="More work" view="dark" />
+        </div>
+
+        <div className={css.bg_2} />
       </div>
-      <div className={css.bg_2}></div>
     </section>
   );
 };
