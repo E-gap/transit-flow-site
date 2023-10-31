@@ -2,13 +2,8 @@ import ServicesMain from "../../components/ServicesMain/ServicesMain";
 import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
 import ServicesWorks from "../../components/ServicesWorks/ServicesWorks";
 import Testimonial from "../../components/Testimonial/Testimonial";
-/* import AboutUsAboutUs from "../../components/AboutUsAboutUs/AboutUsAboutUs";
-import AboutUsWeDo from "../../components/AboutUsWeDo/AboutUsWeDo";
-import HomeTeam from "../../components/HomeTeam/HomeTeam";
-
-import AboutUsPricing from "../../components/AboutUsPricing/AboutUsPricing";
-import AboutUsFAQ from "../../components/AboutUsFAQ/AboutUsFAQ";
-import AboutUsClients from "../../components/AboutUsClients/AboutUsClients"; */
+import Indicators from "../../components/Indicators/Indicators";
+import { indicators_services } from "../../assets/indicators";
 
 const ServicesPage = () => {
   return (
@@ -17,6 +12,7 @@ const ServicesPage = () => {
       <WhatWeDo bg="white" />
       <ServicesWorks />
       <Testimonial bg="white" />
+      <Indicators indicators={indicators_services} />
     </>
   );
 };

@@ -5,7 +5,7 @@ import plane_photo from "../../images/homeWhyUs/plane_photo.jpg";
 import girl_photo from "../../images/homeWhyUs/girl_photo.png";
 import ButtonUser from "../ButtonUser/ButtonUser";
 import Indicators from "../Indicators/Indicators";
-import { indicators } from "../../assets/indicators";
+import { indicators_home } from "../../assets/indicators";
 
 const HomeWhyUs = () => {
   return (
@@ -40,7 +40,7 @@ const HomeWhyUs = () => {
               />
             </div>
           </div>
-          <Indicators indicators={indicators} />
+          <Indicators indicators={indicators_home} />
         </div>
       </Container>
       <div className={css.transporting}>
