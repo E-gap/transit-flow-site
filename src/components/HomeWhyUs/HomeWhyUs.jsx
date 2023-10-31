@@ -4,6 +4,8 @@ import LittleText from "../LittleText/LittleText";
 import plane_photo from "../../images/homeWhyUs/plane_photo.jpg";
 import girl_photo from "../../images/homeWhyUs/girl_photo.png";
 import ButtonUser from "../ButtonUser/ButtonUser";
+import Indicators from "../Indicators/Indicators";
+import { indicators } from "../../assets/indicators";
 
 const HomeWhyUs = () => {
   return (
@@ -38,16 +40,7 @@ const HomeWhyUs = () => {
               />
             </div>
           </div>
-          <ul className={css.indicatorsList}>
-            <li className={css.indicatorsItem}>
-              <span>1294</span>
-              <p>Delivered Packages</p>
-            </li>
-            <li className={css.indicatorsItem}>
-              <span>3594</span>
-              <p>Satisfied Clients</p>
-            </li>
-          </ul>
+          <Indicators indicators={indicators} />
         </div>
       </Container>
       <div className={css.transporting}>
