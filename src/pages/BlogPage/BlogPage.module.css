@@ -1,28 +1,26 @@
-.homeBlog {
-  padding-top: 95px;
+.section {
+  padding: 103px 0px;
 }
 
-.allPartSection {
-  color: rgba(28, 31, 53, 1);
+.blog_allPartSection {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.homeBlog_headline {
-  margin-bottom: 30px;
+.blog_allPartSection h2 {
+  margin-bottom: 50px;
 }
 
 .blogList {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .blogItem {
   display: inline-grid;
-  grid-template-columns: 453px 85px 364px;
+  grid-template-columns: 453px 53px 364px;
   column-gap: 20px;
   padding: 30px 0px;
 }
@@ -116,12 +114,4 @@
   line-height: 1.688;
   list-style: disc;
   padding-left: 20px;
-}
-
-.bg_bottom {
-  height: 412px;
-  background-image: url("../../images/homeBlog/bg_bottom.jpg");
-  background-position: center;
-  background-size: cover;
-  margin-top: 95px;
 }
