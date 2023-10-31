@@ -1,0 +1,30 @@
+.galleryList_section {
+  padding: 103px 0px;
+}
+
+.galleryList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.galleryItem {
+  position: relative;
+}
+
+.galleryItem:hover,
+.galleryItem:focus {
+  .photoLink_overlay {
+    display: block;
+  }
+}
+
+.photoLink_overlay {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
