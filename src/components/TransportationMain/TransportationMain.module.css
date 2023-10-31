@@ -1,0 +1,14 @@
+.transportationMain {
+  background: url("../../images/transportationPage/bg_transportation_main.png")
+      no-repeat,
+    url("../../images/transportationPage/bg_transportation_main_photo.jpg")
+      no-repeat;
+  background-size: cover, cover;
+  background-position: center;
+}
+
+.allPartSection {
+  height: 419px;
+  color: white;
+  padding-top: 119px;
+}

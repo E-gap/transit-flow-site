@@ -1,0 +1,45 @@
+.section {
+  padding: 103px 0px;
+}
+
+.projectDetails {
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.projectDetails_allPartSection {
+  display: flex;
+}
+
+.projectDetails_text {
+  margin-left: 100px;
+}
+
+.projectDetails_text h2 {
+  margin-bottom: 40px;
+}
+
+.projectDetails_item {
+  display: flex;
+}
+
+.projectDetails_item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.projectDetails_item > p:first-child {
+  width: 114px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.projectDetails_item > p:last-child {
+  font-family: "Rubik";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}

@@ -4,7 +4,8 @@ import Footer from "./components/Footer/Footer";
 // import AboutUsPage from "./pages/AboutUsPage/AboutUsPage";
 /* import ServicesPage from "./pages/ServicesPage/ServicesPage"; */
 // import ServiceSinglePage from "./pages/ServiceSinglePage/ServiceSinglePage";
-import GalleryPage from "./pages/GalleryPage/GalleryPage";
+// import GalleryPage from "./pages/GalleryPage/GalleryPage";
+import TransportationPage from "./pages/TransportationPage/TransportationPage";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
        <AboutUsPage /> */}
       {/* <ServicesPage /> */}
       {/* <ServiceSinglePage /> */}
-      <GalleryPage />
+      {/* <GalleryPage /> */}
+      <TransportationPage />
       <Footer />
     </div>
   );
