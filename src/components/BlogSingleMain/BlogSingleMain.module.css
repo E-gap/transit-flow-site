@@ -1,0 +1,13 @@
+.blogSingleMain {
+  background: url("../../images/blogSinglePage/bg_blog_single_main.png")
+      no-repeat,
+    url("../../images/blogSinglePage/bg_blog_single_main_photo.jpg") no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
+}
+
+.allPartSection {
+  height: 419px;
+  color: white;
+  padding-top: 119px;
+}

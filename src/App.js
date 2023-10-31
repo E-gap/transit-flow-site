@@ -6,7 +6,8 @@ import Footer from "./components/Footer/Footer";
 // import ServiceSinglePage from "./pages/ServiceSinglePage/ServiceSinglePage";
 // import GalleryPage from "./pages/GalleryPage/GalleryPage";
 // import TransportationPage from "./pages/TransportationPage/TransportationPage";
-import BlogPage from "./pages/BlogPage/BlogPage";
+// import BlogPage from "./pages/BlogPage/BlogPage";
+import BlogSinglePage from "./pages/BlogSinglePage/BlogSinglePage";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <ServiceSinglePage /> */}
       {/* <GalleryPage /> */}
       {/* <TransportationPage /> */}
-      <BlogPage />
+      {/* <BlogPage /> */}
+      <BlogSinglePage />
       <Footer />
     </div>
   );
