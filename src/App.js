@@ -7,8 +7,9 @@ import Footer from "./components/Footer/Footer";
 // import GalleryPage from "./pages/GalleryPage/GalleryPage";
 // import TransportationPage from "./pages/TransportationPage/TransportationPage";
 // import BlogPage from "./pages/BlogPage/BlogPage";
-// import BlogSinglePage from "./pages/BlogSinglePage/BlogSinglePage";
-import TeamPage from "./pages/TeamPage/TeamPage";
+import BlogSinglePage from "./pages/BlogSinglePage/BlogSinglePage";
+// import TeamPage from "./pages/TeamPage/TeamPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
       {/* <GalleryPage /> */}
       {/* <TransportationPage /> */}
       {/* <BlogPage /> */}
-      {/* <BlogSinglePage /> */}
-      <TeamPage />
+      <BlogSinglePage />
+      {/* <TeamPage /> */}
+      <ContactPage />
       <Footer />
     </div>
   );

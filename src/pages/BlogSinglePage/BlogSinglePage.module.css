@@ -81,6 +81,22 @@
   font-weight: 600;
   line-height: 1.181;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.blockItem_headline::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 23px;
+  margin-right: 10px;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
 }
 
 .category_item {
