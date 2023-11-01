@@ -1,0 +1,12 @@
+.pricingMain {
+  background: url("../../images/pricingPage/bg_pricing_main.png") no-repeat,
+    url("../../images/pricingPage/bg_pricing_main_photo.jpg") no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
+}
+
+.allPartSection {
+  height: 419px;
+  color: white;
+  padding-top: 157px;
+}

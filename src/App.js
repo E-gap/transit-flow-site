@@ -9,7 +9,8 @@ import Footer from "./components/Footer/Footer";
 // import BlogPage from "./pages/BlogPage/BlogPage";
 // import BlogSinglePage from "./pages/BlogSinglePage/BlogSinglePage";
 // import TeamPage from "./pages/TeamPage/TeamPage";
-import ContactPage from "./pages/ContactPage/ContactPage";
+// import ContactPage from "./pages/ContactPage/ContactPage";
+import PricingPage from "./pages/PricingPage/PricingPage";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <BlogPage /> */}
       {/* <BlogSinglePage /> */}
       {/* <TeamPage /> */}
-      <ContactPage />
+      {/* <ContactPage /> */}
+      <PricingPage />
       <Footer />
     </div>
   );

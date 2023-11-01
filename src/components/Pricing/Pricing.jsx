@@ -1,11 +1,11 @@
-import css from "./AboutUsPricing.module.css";
+import css from "./Pricing.module.css";
 import Container from "react-bootstrap/Container";
 import LittleText from "../LittleText/LittleText";
 import ButtonUser from "../ButtonUser/ButtonUser";
 
-const AboutUsPricing = () => {
+const Pricing = () => {
   return (
-    <section className={css.aboutUsPricing}>
+    <section className={css.pricing}>
       <Container>
         <div className={css.allPartSection}>
           <LittleText text="Pricing" view="light" />
@@ -63,4 +63,4 @@ const AboutUsPricing = () => {
   );
 };
 
-export default AboutUsPricing;
+export default Pricing;

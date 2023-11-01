@@ -2,7 +2,7 @@ import AboutUsMain from "../../components/AboutUsMain/AboutUsMain";
 import AboutUsAboutUs from "../../components/AboutUsAboutUs/AboutUsAboutUs";
 import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
 import Testimonial from "../../components/Testimonial/Testimonial";
-import AboutUsPricing from "../../components/AboutUsPricing/AboutUsPricing";
+import Pricing from "../../components/Pricing/Pricing";
 import FAQ from "../../components/FAQ/FAQ";
 import AboutUsClients from "../../components/AboutUsClients/AboutUsClients";
 import Team from "../../components/Team/Team";
@@ -16,7 +16,7 @@ const AboutUsPage = () => {
       <WhatWeDo bg="grey" />
       <Team members={team_homePage} bg="white" />
       <Testimonial bg="grey" />
-      <AboutUsPricing />
+      <Pricing />
       <FAQ />
       <AboutUsClients />
     </>
