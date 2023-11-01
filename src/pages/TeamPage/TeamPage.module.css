@@ -1,9 +1,72 @@
 .section {
-  padding: 103px 0px;
+  padding-top: 103px;
 }
 
-/* .team_allPartSection {
+.allPartSection {
+  display: flex;
+}
+
+.about_div_text {
+  width: 604px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-} */
+  justify-content: center;
+}
+
+.about_text {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about_div_photo {
+  position: relative;
+  margin-left: -200px;
+  margin-right: auto;
+}
+
+.absolute {
+  position: absolute;
+  border-left: 20px solid white;
+  border-top: 20px solid white;
+  right: -20px;
+  bottom: -20px;
+}
+
+.advantageList {
+  padding-top: 20px;
+  border-top: 1px solid rgba(214, 214, 214, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantageItem {
+  width: 230px;
+}
+
+.advantage_icon {
+  margin-bottom: 10px;
+}
+
+.advantage_headline {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgba(28, 31, 53, 1);
+  margin-bottom: 15px;
+}
+
+.advantage_text {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(102, 108, 137, 1);
+}
+
+.teamClients {
+  padding: 103px 0px;
+}
