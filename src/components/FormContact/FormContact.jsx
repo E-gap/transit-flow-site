@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import css from "./FormContact.module.css";
 
-const FormContact = () => {
+const FormContact = ({ width, align }) => {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -18,8 +18,20 @@ const FormContact = () => {
     setValidated(true);
   };
 
+  const styleButtonCenter = css[align];
+
+  const styleForm = {};
+  if (width) {
+    styleForm.width = width;
+  }
+
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <Form
+      noValidate
+      validated={validated}
+      onSubmit={handleSubmit}
+      style={styleForm}
+    >
       <Row className="mb-4 mx-0">
         <Form.Group
           as={Col}
@@ -86,8 +98,11 @@ const FormContact = () => {
         </Form.Group>
       </Row>
       <Row className="mx-0">
-        <Col xs="4" className={css.formColumn}>
-          <Button type="submit" className={css.submitButton}>
+        <Col /* xs="4" */ className={css.formColumn}>
+          <Button
+            type="submit"
+            className={`${css.submitButton} ${styleButtonCenter}`}
+          >
             Submit message
           </Button>
         </Col>

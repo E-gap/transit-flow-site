@@ -1,7 +1,6 @@
-.aboutUsFAQ {
+.FAQ {
   padding: 103px 0px;
-  background: url("../../images/aboutUsFAQ/about_us_bg_photo.jpg") center right
-      0px no-repeat,
+  background: url("../../images/FAQ/bg_photo.jpg") center right 0px no-repeat,
     rgba(244, 244, 244, 1);
 }
 
@@ -75,7 +74,7 @@
   display: inline-block;
   width: 63px;
   height: 63px;
-  background-image: url("../../images/aboutUsFAQ/icon_phone.png");
+  background-image: url("../../images/FAQ/icon_phone.png");
   background-position: center;
   margin-right: 20px;
 }

@@ -1,12 +1,12 @@
-import css from "./AboutUsFAQ.module.css";
+import css from "./FAQ.module.css";
 import Container from "react-bootstrap/Container";
 import LittleText from "../LittleText/LittleText";
 import Accordion from "react-bootstrap/Accordion";
 import ButtonUser from "../ButtonUser/ButtonUser";
 
-const AboutUsFAQ = () => {
+const FAQ = () => {
   return (
-    <section className={css.aboutUsFAQ}>
+    <section className={css.FAQ}>
       <Container>
         <div className={css.allPartSection}>
           <div className={css.FAQ_accordion}>
@@ -81,4 +81,4 @@ const AboutUsFAQ = () => {
   );
 };
 
-export default AboutUsFAQ;
+export default FAQ;

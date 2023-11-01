@@ -3,7 +3,7 @@ import AboutUsAboutUs from "../../components/AboutUsAboutUs/AboutUsAboutUs";
 import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import AboutUsPricing from "../../components/AboutUsPricing/AboutUsPricing";
-import AboutUsFAQ from "../../components/AboutUsFAQ/AboutUsFAQ";
+import FAQ from "../../components/FAQ/FAQ";
 import AboutUsClients from "../../components/AboutUsClients/AboutUsClients";
 import Team from "../../components/Team/Team";
 import { team_homePage } from "../../assets/team";
@@ -17,7 +17,7 @@ const AboutUsPage = () => {
       <Team members={team_homePage} bg="white" />
       <Testimonial bg="grey" />
       <AboutUsPricing />
-      <AboutUsFAQ />
+      <FAQ />
       <AboutUsClients />
     </>
   );

@@ -2,71 +2,80 @@
   padding-top: 103px;
 }
 
-.allPartSection {
-  display: flex;
-}
-
-.about_div_text {
-  width: 604px;
+.contact_allPartSection {
+  color: white;
+  padding: 101px 98px;
+  background-color: rgba(9, 18, 66, 1);
+  width: 954px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.about_text {
-  font-family: "Krub", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-.about_div_photo {
-  position: relative;
-  margin-left: -200px;
+  align-items: center;
+  margin-left: auto;
   margin-right: auto;
 }
 
-.absolute {
-  position: absolute;
-  border-left: 20px solid white;
-  border-top: 20px solid white;
-  right: -20px;
-  bottom: -20px;
+.contact_headline {
+  text-align: center;
 }
 
-.advantageList {
-  padding-top: 20px;
-  border-top: 1px solid rgba(214, 214, 214, 1);
-  display: flex;
-  justify-content: space-between;
-}
-
-.advantageItem {
-  width: 230px;
-}
-
-.advantage_icon {
-  margin-bottom: 10px;
-}
-
-.advantage_headline {
-  font-family: "Rubik", sans-serif;
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: rgba(28, 31, 53, 1);
-  margin-bottom: 15px;
-}
-
-.advantage_text {
+.contact_text {
   font-family: "Krub", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  color: rgba(102, 108, 137, 1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contactList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
-.teamClients {
-  padding: 103px 0px;
+.contactItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contactIconEmail:hover,
+.contactIconPhone:hover,
+.contactIconEmail:focus,
+.contactIconPhone:focus {
+  color: var(--color-hover-link);
+}
+
+.contactInfo::before {
+  content: "";
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 17px;
+}
+
+.contactIconTime::before {
+  background-image: url("../../images/header/iconTime.png");
+}
+
+.contactIconEmail::before {
+  background-image: url("../../images/header/iconEmail.png");
+}
+
+.contactIconPhone::before {
+  background-image: url("../../images/header/iconPhone.png");
+}
+
+.contactClients {
+  padding: 51px 0px;
 }
