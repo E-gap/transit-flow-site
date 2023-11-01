@@ -3,9 +3,10 @@ import HomeWeDo from "../../components/HomeWeDo/HomeWeDo";
 import HomeWhyUs from "../../components/HomeWhyUs/HomeWhyUs";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import HomeWhyChoose from "../../components/HomeWhyChoose/HomeWhyChoose";
-import HomeTeam from "../../components/HomeTeam/HomeTeam";
+import Team from "../../components/Team/Team";
 import HomeContact from "../../components/HomeContact/HomeContact";
 import HomeBlog from "../../components/HomeBlog/HomeBlog";
+import { team_homePage } from "../../assets/team";
 
 const HomePage = () => {
   return (
@@ -15,7 +16,7 @@ const HomePage = () => {
       <HomeWhyUs />
       <Testimonial bg="white" />
       <HomeWhyChoose />
-      <HomeTeam />
+      <Team members={team_homePage} bg="white" />
       <HomeContact />
       <HomeBlog />
     </>

@@ -1,0 +1,12 @@
+.teamMain {
+  background: url("../../images/teamPage/bg_team_main.png") no-repeat,
+    url("../../images/teamPage/bg_team_main_photo.jpg") no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
+}
+
+.allPartSection {
+  height: 419px;
+  color: white;
+  padding-top: 119px;
+}

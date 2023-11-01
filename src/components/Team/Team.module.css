@@ -1,5 +1,13 @@
-.homeTeam {
-  padding: 95px 0px;
+.team {
+  padding: 103px 0px;
+}
+
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: rgba(244, 244, 244, 1);
 }
 
 .allPartSection {
@@ -9,13 +17,15 @@
   align-items: center;
 }
 
-.homeTeam_headline {
+.team_headline {
   margin-bottom: 30px;
 }
 
 .teamList {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 364px);
+  gap: 50px;
   justify-content: space-between;
 }
 
