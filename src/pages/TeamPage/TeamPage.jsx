@@ -15,7 +15,7 @@ const TeamPage = () => {
     <>
       <TeamMain />
       <Team members={team_teamPage} bg="grey" />
-      <section className={`${css.about} ${css.section}`}>
+      <section className={css.section}>
         <Container>
           <div className={css.allPartSection}>
             <div className={css.about_div_photo}>
