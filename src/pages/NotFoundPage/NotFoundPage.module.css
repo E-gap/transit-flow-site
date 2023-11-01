@@ -1,0 +1,55 @@
+.notFound {
+  padding: 103px 0px;
+}
+
+.allPartSection {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.section_headline {
+  font-family: "Rubik", sans-serif;
+  font-size: 350px;
+  font-weight: 600;
+  line-height: 1.185;
+  color: rgba(28, 31, 53, 1);
+}
+
+.yellow_zero {
+  color: rgba(255, 184, 43, 1);
+}
+
+.text_middle {
+  font-family: "Rubik", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.171;
+  margin-bottom: 10px;
+}
+
+.text_little {
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.backButton {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 0px;
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #23212a;
+  text-decoration: none;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
