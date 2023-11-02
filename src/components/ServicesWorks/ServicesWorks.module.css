@@ -1,6 +1,6 @@
 .servicesWorks {
   padding: 103px 0px;
-  background-color: rgba(244, 244, 244, 1);
+  background-color: var(--color-bg-secondary);
 }
 
 .allPartSection {
@@ -59,8 +59,8 @@
 
 .absolute {
   position: absolute;
-  border-left: 20px solid rgba(244, 244, 244, 1);
-  border-top: 20px solid rgba(244, 244, 244, 1);
+  border-left: 20px solid var(--color-bg-secondary);
+  border-top: 20px solid var(--color-bg-secondary);
   bottom: -20px;
   right: -20px;
 }

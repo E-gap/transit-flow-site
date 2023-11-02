@@ -28,7 +28,7 @@
 }
 
 .pricingItem:not(:nth-child(2)) {
-  background-color: rgba(244, 244, 244, 1);
+  background-color: var(--color-bg-secondary);
 }
 
 .pricingItem:nth-child(2) {

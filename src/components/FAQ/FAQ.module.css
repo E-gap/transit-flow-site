@@ -1,7 +1,7 @@
 .FAQ {
   padding: 103px 0px;
   background: url("../../images/FAQ/bg_photo.jpg") center right 0px no-repeat,
-    rgba(244, 244, 244, 1);
+    var(--color-bg-secondary);
 }
 
 .allPartSection {
@@ -20,7 +20,7 @@
 }
 
 .accordionItems * {
-  background-color: rgba(244, 244, 244, 1);
+  background-color: var(--color-bg-secondary);
   border: none;
   padding-left: 0;
 }

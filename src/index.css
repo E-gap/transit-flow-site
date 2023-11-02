@@ -3,6 +3,8 @@
 :root {
   --color-hover-link: #0000ff;
   --color-text-main-light: #ffffff;
+  --color-bg-primary: rgba(255, 255, 255, 1);
+  --color-bg-secondary: rgba(244, 244, 244, 1);
 }
 body {
   margin: 0;

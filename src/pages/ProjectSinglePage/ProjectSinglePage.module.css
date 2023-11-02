@@ -3,7 +3,7 @@
 }
 
 .projectDetails {
-  background-color: rgba(244, 244, 244, 1);
+  background-color: var(--color-bg-secondary);
 }
 
 .projectDetails_allPartSection {

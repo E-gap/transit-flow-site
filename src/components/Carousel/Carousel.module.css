@@ -41,12 +41,12 @@
 }
 
 .testimonialItem:first-child {
-  background-color: rgba(244, 244, 244, 1);
+  background-color: var(--color-bg-secondary);
 }
 
 .testimonialItem:last-child {
   background-color: rgba(9, 18, 66, 1);
-  color: rgba(255, 255, 255, 1);
+  color: var(--color-bg-primary);
 }
 
 .testimonialItem {
