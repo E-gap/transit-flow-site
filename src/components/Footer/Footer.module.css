@@ -148,7 +148,7 @@
 }
 
 .linkIcon {
-  color: white;
+  color: var(--color-text-main-light);
 }
 
 .linkIcon:hover,

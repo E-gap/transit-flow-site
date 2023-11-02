@@ -3,7 +3,7 @@
 }
 
 .white {
-  background-color: white;
+  background-color: var(--color-text-main-light);
 }
 
 .grey {
@@ -40,7 +40,7 @@
   align-items: flex-start;
   justify-content: flex-end;
   background-color: rgba(28, 31, 53, 1);
-  color: white;
+  color: var(--color-text-main-light);
 }
 
 .memberName {
@@ -84,7 +84,7 @@
 
 .linkIcon:hover,
 .linkIcon:focus {
-  color: blue;
+  color: var(--color-hover-link);
 }
 
 .memberLinkItem:not(:last-child) {

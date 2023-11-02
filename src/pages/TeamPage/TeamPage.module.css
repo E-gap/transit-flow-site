@@ -29,8 +29,8 @@
 
 .absolute {
   position: absolute;
-  border-left: 20px solid white;
-  border-top: 20px solid white;
+  border-left: 20px solid var(--color-text-main-light);
+  border-top: 20px solid var(--color-text-main-light);
   right: -20px;
   bottom: -20px;
 }

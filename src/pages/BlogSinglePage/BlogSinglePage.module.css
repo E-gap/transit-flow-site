@@ -72,7 +72,7 @@
 
 .bg_dark {
   background-color: rgba(9, 18, 66, 1);
-  color: white;
+  color: var(--color-text-main-light);
 }
 
 .blockItem_headline {
@@ -146,7 +146,7 @@
 
 .sendButton:hover,
 .sendButton:focus {
-  color: white;
+  color: var(--color-text-main-light);
   background: rgba(9, 18, 66, 1);
 }
 

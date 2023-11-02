@@ -6,6 +6,6 @@
 
 .allPartSection {
   height: 419px;
-  color: white;
+  color: var(--color-text-main-light);
   padding-top: 119px;
 }

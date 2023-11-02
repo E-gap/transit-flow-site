@@ -54,11 +54,21 @@
 .indicatorsItem_more_2:first-child {
   border-top-style: solid;
   border-top-width: 1px;
-  border-image: linear-gradient(90deg, white, rgba(212, 212, 212, 1)) 1;
+  border-image: linear-gradient(
+      90deg,
+      var(--color-text-main-light),
+      rgba(212, 212, 212, 1)
+    )
+    1;
 }
 
 .indicatorsItem_more_2:last-child {
   border-top-style: solid;
   border-top-width: 1px;
-  border-image: linear-gradient(270deg, white, rgba(212, 212, 212, 1)) 1;
+  border-image: linear-gradient(
+      270deg,
+      var(--color-text-main-light),
+      rgba(212, 212, 212, 1)
+    )
+    1;
 }

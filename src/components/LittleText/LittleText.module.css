@@ -27,7 +27,7 @@
 }
 
 .dark {
-  color: white;
+  color: var(--color-text-main-light);
   background-color: rgba(4, 28, 55, 0.5);
 }
 

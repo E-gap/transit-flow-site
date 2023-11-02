@@ -12,7 +12,7 @@
 }
 
 .allPartSection {
-  color: white;
+  color: var(--color-text-main-light);
 }
 
 .contactItem {

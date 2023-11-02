@@ -33,7 +33,7 @@
 
 .pricingItem:nth-child(2) {
   background-color: rgba(9, 18, 66, 1);
-  color: white;
+  color: var(--color-text-main-light);
 }
 
 .pricing_name {

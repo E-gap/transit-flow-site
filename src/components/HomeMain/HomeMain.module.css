@@ -7,7 +7,7 @@
 
 .allPartSection {
   height: 797px;
-  color: white;
+  color: var(--color-text-main-light);
   padding-top: 173px;
 }
 

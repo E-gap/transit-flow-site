@@ -3,7 +3,7 @@
 }
 
 .contact_allPartSection {
-  color: white;
+  color: var(--color-text-main-light);
   padding: 101px 98px;
   background-color: rgba(9, 18, 66, 1);
   width: 954px;

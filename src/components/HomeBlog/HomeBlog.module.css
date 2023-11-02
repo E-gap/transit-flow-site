@@ -67,7 +67,7 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 1.375;
-  color: white;
+  color: var(--color-text-main-light);
 }
 
 .photoLink_overlay_button {

@@ -42,7 +42,7 @@
 }
 
 .FAQ_contactUs {
-  color: white;
+  color: var(--color-text-main-light);
   padding: 60px;
   background-color: rgba(9, 18, 66, 1);
   width: 448px;
