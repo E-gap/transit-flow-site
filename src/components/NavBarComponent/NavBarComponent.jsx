@@ -14,11 +14,11 @@ const NavBarComponent = () => {
         <Navbar className={css.navBar}>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home" className={`${css.navLink} navbarLink`}>
+              <Nav.Link href="/" className={`${css.navLink} navbarLink`}>
                 Home
               </Nav.Link>
               <div className={`${css.navDivider} vr`} />
-              <Nav.Link href="#about" className={`${css.navLink} navbarLink`}>
+              <Nav.Link href="/about" className={`${css.navLink} navbarLink`}>
                 About
               </Nav.Link>
               <div className={`${css.navDivider} vr`} />

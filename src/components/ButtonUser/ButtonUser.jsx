@@ -1,16 +1,20 @@
 import css from "./ButtonUser.module.css";
 
-const ButtonUser = ({ text, view, tel }) => {
+const ButtonUser = ({ text, view, tel, path }) => {
   const style = css[view];
 
   return (
     <button className={`${style} ${css.buttonUser}`}>
-      {tel ? (
+      {!tel && !path && text}
+      {tel && (
         <a className={css.buttonLink} href={`tel:${tel}`}>
           {text}
         </a>
-      ) : (
-        text
+      )}
+      {path && (
+        <a className={css.buttonLink} href={path}>
+          {text}
+        </a>
       )}
     </button>
   );

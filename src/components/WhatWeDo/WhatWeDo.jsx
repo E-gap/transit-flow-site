@@ -97,7 +97,7 @@ const WhatWeDo = ({ bg }) => {
               </p>
             </li>
           </ul>
-          <ButtonUser text="More Works" view="dark" />
+          <ButtonUser text="More Works" view="dark" path="/services" />
         </div>
       </Container>
     </section>
