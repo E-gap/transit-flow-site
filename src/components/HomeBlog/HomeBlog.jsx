@@ -96,7 +96,7 @@ const HomeBlog = () => {
               </div>
             </li>
           </ul>
-          <ButtonUser text="More Blog" view="dark" />
+          <ButtonUser text="More Blog" view="dark" path="/blog" />
         </div>
       </Container>
       <div className={css.bg_bottom} />

@@ -1,10 +1,10 @@
 import css from "./ButtonUser.module.css";
 
-const ButtonUser = ({ text, view, tel, path }) => {
+const ButtonUser = ({ text, view, tel, path, handleButton }) => {
   const style = css[view];
 
   return (
-    <button className={`${style} ${css.buttonUser}`}>
+    <button className={`${style} ${css.buttonUser}`} onClick={handleButton}>
       {!tel && !path && text}
       {tel && (
         <a className={css.buttonLink} href={`tel:${tel}`}>

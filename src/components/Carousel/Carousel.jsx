@@ -86,13 +86,16 @@ const Carousel = () => {
           </p>
 
           <ul className={css.testimonialStarsList}>
-            {Array.from({ length: testimonials[slide].grade }, (v, k) => {
-              return (
-                <li key={k}>
-                  <img src={star_icon} alt="stars grade" />
-                </li>
-              );
-            })}
+            {Array.from(
+              { length: testimonials[numberNextSlide(slide)].grade },
+              (v, k) => {
+                return (
+                  <li key={k}>
+                    <img src={star_icon} alt="stars grade" />
+                  </li>
+                );
+              }
+            )}
           </ul>
         </li>
       </ul>

@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import logo from "../../images/logo.png";
 import Form from "react-bootstrap/Form";
-// import Notiflix from "notiflix";
+import Notiflix from "notiflix";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import { SiLinkedin } from "react-icons/si";
@@ -14,14 +14,18 @@ const Footer = () => {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
+    event.preventDefault();
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
+    } else {
+      Notiflix.Notify.success("YOU ARE SUBSCRIBED");
     }
 
     setValidated(true);
   };
+
   return (
     <footer className={css.footer}>
       <div className={css.firstPartFooter}>
@@ -145,7 +149,6 @@ const Footer = () => {
                       type="email"
                       placeholder="Email here*"
                     />
-                    <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                   </Form.Group>
                 </Row>
                 <div className={css.divFlex}>

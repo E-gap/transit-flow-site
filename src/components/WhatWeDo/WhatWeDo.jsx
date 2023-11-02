@@ -25,7 +25,9 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <h3>Sea Transport Services</h3>
+              <a href="/service/id" className={css.servise_headline}>
+                Sea Transport Services
+              </a>
               <p className={css.works_item_text}>
                 Following the quality of our service thus having gained trust of
                 our many clients.
@@ -38,7 +40,9 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <h3>Warehousing Services</h3>
+              <a href="/service/id" className={css.servise_headline}>
+                Warehousing Services
+              </a>
               <p className={css.works_item_text}>
                 Following the quality of our service thus having gained trust of
                 our many clients.
@@ -51,7 +55,9 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <h3>Air Fright Services</h3>
+              <a href="/service/id" className={css.servise_headline}>
+                Air Fright Services
+              </a>
               <p className={css.works_item_text}>
                 Following the quality of our service thus having gained trust of
                 our many clients.
@@ -64,7 +70,9 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <h3>Project & Exhibition</h3>
+              <a href="/service/id" className={css.servise_headline}>
+                Project & Exhibition
+              </a>
               <p className={css.works_item_text}>
                 Following the quality of our service thus having gained trust of
                 our many clients.
@@ -77,7 +85,9 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <h3>Local Shipping Services</h3>
+              <a href="/service/id" className={css.servise_headline}>
+                Local Shipping Services
+              </a>
               <p className={css.works_item_text}>
                 Following the quality of our service thus having gained trust of
                 our many clients.
@@ -90,7 +100,9 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <h3>Customer Clearance</h3>
+              <a href="/service/id" className={css.servise_headline}>
+                Customer Clearance
+              </a>
               <p className={css.works_item_text}>
                 Following the quality of our service thus having gained trust of
                 our many clients.

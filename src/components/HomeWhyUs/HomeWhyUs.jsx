@@ -6,8 +6,12 @@ import girl_photo from "../../images/homeWhyUs/girl_photo.png";
 import ButtonUser from "../ButtonUser/ButtonUser";
 import Indicators from "../Indicators/Indicators";
 import { indicators_home } from "../../assets/indicators";
+import Notiflix from "notiflix";
 
 const HomeWhyUs = () => {
+  const handleButton = () => {
+    Notiflix.Notify.success("ACTION HAS NOT BEEN INVENTED YET");
+  };
   return (
     <section className={css.homeWhyUs}>
       <div className={css.bg_1}></div>
@@ -73,7 +77,11 @@ const HomeWhyUs = () => {
               </p>
             </li>
           </ul>
-          <ButtonUser text="More work" view="dark" />
+          <ButtonUser
+            text="More work"
+            view="dark"
+            handleButton={handleButton}
+          />
         </div>
 
         <div className={css.bg_2} />

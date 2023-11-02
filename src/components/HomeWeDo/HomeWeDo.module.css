@@ -28,10 +28,6 @@
   align-items: flex-start;
 }
 
-.servicesItem h3 {
-  margin-bottom: 20px;
-}
-
 .servicesItem p {
   font-family: "Krub", sans-serif;
   font-weight: 500;
@@ -62,4 +58,20 @@
 
 .servicesItemText {
   display: flex;
+}
+
+.servise_headline {
+  display: block;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.185;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.servise_headline:hover,
+.servise_headline:focus {
+  color: rgba(255, 184, 43, 1);
 }

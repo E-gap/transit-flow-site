@@ -22,7 +22,9 @@ const HomeWeDo = () => {
               <img src={shipIcon} alt="ship icon" className={css.icon} />
               <div className={css.servicesItemText}>
                 <div className={css.flex_column}>
-                  <h3>Sea Transport Services</h3>
+                  <a href="/services/id" className={css.servise_headline}>
+                    Sea Transport Services
+                  </a>
                   <p>
                     Following the quality of our service thus having gained
                     trust of our many clients.
@@ -34,7 +36,9 @@ const HomeWeDo = () => {
               <img src={houseIcon} alt="house icon" className={css.icon} />
               <div className={css.servicesItemText}>
                 <div className={css.flex_column}>
-                  <h3>Warehousing Services</h3>
+                  <a href="/services/id" className={css.servise_headline}>
+                    Warehousing Services
+                  </a>
                   <p>
                     Following the quality of our service thus having gained
                     trust of our many clients.
@@ -46,7 +50,9 @@ const HomeWeDo = () => {
               <img src={planeIcon} alt="plane icon" className={css.icon} />
               <div className={css.servicesItemText}>
                 <div className={css.flex_column}>
-                  <h3>Air Fright Services</h3>
+                  <a href="/services/id" className={css.servise_headline}>
+                    Air Fright Services
+                  </a>
                   <p>
                     Following the quality of our service thus having gained
                     trust of our many clients.
@@ -58,7 +64,9 @@ const HomeWeDo = () => {
               <img src={carIcon} alt="car icon" className={css.icon} />
               <div className={css.servicesItemText}>
                 <div className={css.flex_column}>
-                  <h3>Local Shipping Services</h3>
+                  <a href="/services/id" className={css.servise_headline}>
+                    Local Shipping Services
+                  </a>
                   <p>
                     Following the quality of our service thus having gained
                     trust of our many clients.

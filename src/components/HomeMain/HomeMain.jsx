@@ -3,8 +3,12 @@ import Container from "react-bootstrap/Container";
 import ButtonUser from "../ButtonUser/ButtonUser";
 import NavBarComponent from "../NavBarComponent/NavBarComponent";
 import LittleText from "../LittleText/LittleText";
+import Notiflix from "notiflix";
 
 const HomeMain = () => {
+  const handleButton = () => {
+    Notiflix.Notify.success("ACTION HAS NOT BEEN INVENTED YET");
+  };
   return (
     <>
       <section className={css.homeMain}>
@@ -24,7 +28,11 @@ const HomeMain = () => {
               finibus, enim <br />
               diam interdum nulla, sed laoreet risus lectus.
             </p>
-            <ButtonUser text="Explore More" view="light" />
+            <ButtonUser
+              text="Explore More"
+              view="light"
+              handleButton={handleButton}
+            />
           </div>
         </Container>
       </section>

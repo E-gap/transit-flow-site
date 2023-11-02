@@ -3,16 +3,20 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
+import Notiflix from "notiflix";
 import css from "./FormContact.module.css";
 
 const FormContact = ({ width, align }) => {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
+    event.preventDefault();
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
+    } else {
+      Notiflix.Notify.success("YOUR MESSAGE HAS BEEN SENT");
     }
 
     setValidated(true);

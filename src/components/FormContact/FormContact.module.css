@@ -3,6 +3,7 @@
   padding: 15px 20px;
   background-color: rgba(9, 18, 66, 1);
   border: 1px solid rgba(78, 86, 131, 1);
+  color: white;
 }
 
 .formControl::placeholder {
