@@ -25,7 +25,7 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <a href="/service/id" className={css.servise_headline}>
+              <a href="/services/id" className={css.servise_headline}>
                 Sea Transport Services
               </a>
               <p className={css.works_item_text}>
@@ -40,7 +40,7 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <a href="/service/id" className={css.servise_headline}>
+              <a href="/services/id" className={css.servise_headline}>
                 Warehousing Services
               </a>
               <p className={css.works_item_text}>
@@ -55,7 +55,7 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <a href="/service/id" className={css.servise_headline}>
+              <a href="/services/id" className={css.servise_headline}>
                 Air Fright Services
               </a>
               <p className={css.works_item_text}>
@@ -70,7 +70,7 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <a href="/service/id" className={css.servise_headline}>
+              <a href="/services/id" className={css.servise_headline}>
                 Project & Exhibition
               </a>
               <p className={css.works_item_text}>
@@ -85,7 +85,7 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <a href="/service/id" className={css.servise_headline}>
+              <a href="/services/id" className={css.servise_headline}>
                 Local Shipping Services
               </a>
               <p className={css.works_item_text}>
@@ -100,7 +100,7 @@ const WhatWeDo = ({ bg }) => {
                 className={css.icon}
                 height="56px"
               />
-              <a href="/service/id" className={css.servise_headline}>
+              <a href="/services/id" className={css.servise_headline}>
                 Customer Clearance
               </a>
               <p className={css.works_item_text}>

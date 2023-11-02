@@ -4,8 +4,12 @@ import LittleText from "../LittleText/LittleText";
 import ButtonUser from "../ButtonUser/ButtonUser";
 import photo_track from "../../images/aboutUsAboutAs/photo_track.jpg";
 import photo_man from "../../images/aboutUsAboutAs/photo_man.jpg";
+import Notiflix from "notiflix";
 
 const AboutUsAboutUs = () => {
+  const handleButton = () => {
+    Notiflix.Notify.success("ACTION HAS NOT BEEN INVENTED YET");
+  };
   return (
     <>
       <section className={css.aboutUsAboutUs}>
@@ -30,13 +34,13 @@ const AboutUsAboutUs = () => {
               </p>
               <ul className={css.aboutUs_buttons_list}>
                 <li>
-                  <button>Our Approch</button>
+                  <button onClick={handleButton}>Our Approch</button>
                 </li>
                 <li>
-                  <button>Our Approch</button>
+                  <button onClick={handleButton}>Our Approch</button>
                 </li>
                 <li>
-                  <button>Our Approch</button>
+                  <button onClick={handleButton}>Our Approch</button>
                 </li>
               </ul>
               <p className={`${css.aboutUs_text} ${css.text_2}`}>
@@ -46,7 +50,11 @@ const AboutUsAboutUs = () => {
                 vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem quia
                 voluptassit.
               </p>
-              <ButtonUser text="Learn More" view="dark" />
+              <ButtonUser
+                text="Learn More"
+                view="dark"
+                handleButton={handleButton}
+              />
             </div>
           </div>
         </Container>

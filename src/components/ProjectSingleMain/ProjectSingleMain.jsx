@@ -1,4 +1,4 @@
-import css from "./TransportationMain.module.css";
+import css from "./ProjectSingleMain.module.css";
 import Container from "react-bootstrap/Container";
 import NavBarComponent from "../NavBarComponent/NavBarComponent";
 import LittleText from "../LittleText/LittleText";
@@ -6,7 +6,7 @@ import LittleText from "../LittleText/LittleText";
 const TransportationMain = () => {
   return (
     <>
-      <section className={css.transportationMain}>
+      <section className={css.projectSingleMain}>
         <NavBarComponent />
         <Container>
           <div className={css.allPartSection}>

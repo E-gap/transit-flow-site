@@ -1,4 +1,4 @@
-import css from "./GalleryMain.module.css";
+import css from "./ProjectMain.module.css";
 import Container from "react-bootstrap/Container";
 import NavBarComponent from "../NavBarComponent/NavBarComponent";
 import LittleText from "../LittleText/LittleText";
@@ -6,7 +6,7 @@ import LittleText from "../LittleText/LittleText";
 const GalleryMain = () => {
   return (
     <>
-      <section className={css.galleryMain}>
+      <section className={css.projectMain}>
         <NavBarComponent />
         <Container>
           <div className={css.allPartSection}>

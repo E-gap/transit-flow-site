@@ -2,8 +2,13 @@ import css from "./Pricing.module.css";
 import Container from "react-bootstrap/Container";
 import LittleText from "../LittleText/LittleText";
 import ButtonUser from "../ButtonUser/ButtonUser";
+import Notiflix from "notiflix";
 
 const Pricing = () => {
+  const handleButton = () => {
+    Notiflix.Notify.success("YOU HAVE CHOSEN YOUR PRICE");
+  };
+
   return (
     <section className={css.pricing}>
       <Container>
@@ -24,7 +29,11 @@ const Pricing = () => {
                   Real-time rate shopping
                 </li>
               </ul>
-              <ButtonUser text="Choose Plan" view="dark" />
+              <ButtonUser
+                text="Choose Plan"
+                view="dark"
+                handleButton={handleButton}
+              />
             </li>
             <li className={css.pricingItem}>
               <h3 className={css.pricing_name}>Standard</h3>
@@ -39,7 +48,11 @@ const Pricing = () => {
                   Real-time rate shopping
                 </li>
               </ul>
-              <ButtonUser text="Choose Plan" view="light" />
+              <ButtonUser
+                text="Choose Plan"
+                view="light"
+                handleButton={handleButton}
+              />
             </li>
             <li className={css.pricingItem}>
               <h3 className={css.pricing_name}>Premium</h3>
@@ -54,7 +67,11 @@ const Pricing = () => {
                   Real-time rate shopping
                 </li>
               </ul>
-              <ButtonUser text="Choose Plan" view="dark" />
+              <ButtonUser
+                text="Choose Plan"
+                view="dark"
+                handleButton={handleButton}
+              />
             </li>
           </ul>
         </div>

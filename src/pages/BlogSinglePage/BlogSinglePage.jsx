@@ -3,8 +3,13 @@ import Container from "react-bootstrap/Container";
 import css from "./BlogSinglePage.module.css";
 import ship_photo from "../../images/blogSinglePage/ship_photo.jpg";
 import { BsTwitter, BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import Notiflix from "notiflix";
 
 const BlogSinglePage = () => {
+  const handleButton = () => {
+    Notiflix.Notify.success("ACTION HAS NOT BEEN INVENTED YET");
+  };
+
   return (
     <>
       <BlogSingleMain />
@@ -73,7 +78,7 @@ const BlogSinglePage = () => {
             </div>
             <div className={css.blocksDiv}>
               <div className={`${css.blockItem} ${css.bg_grey}`}>
-                <p className={css.blockItem_headline__dark}>Categories</p>
+                <p className={css.blockItem_headline}>Categories</p>
                 <ul className={css.category_list}>
                   <li className={css.category_item}>
                     Shipping
@@ -104,7 +109,11 @@ const BlogSinglePage = () => {
                   leo. Etiam lobortis dapib libero vel porttitor. Nulla tempor
                   elit nec feugiat tempus Phasellus atquam.
                 </p>
-                <button className={css.sendButton} type="submit">
+                <button
+                  className={css.sendButton}
+                  type="button"
+                  onClick={handleButton}
+                >
                   Contact
                 </button>
               </div>

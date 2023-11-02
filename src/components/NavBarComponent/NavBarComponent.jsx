@@ -27,16 +27,28 @@ const NavBarComponent = () => {
                 id="basic-nav-dropdown"
                 className={`${css.navLink} ${css.dropdown}`}
               >
-                <NavDropdown.Item href="#action/3.1">Page1</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Page2</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Page3</NavDropdown.Item>
+                <NavDropdown.Item
+                  href="/team"
+                  className={`${css.dropdownItem} `}
+                >
+                  Our Team
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="/pricing"
+                  className={`${css.dropdownItem}`}
+                >
+                  Pricing
+                </NavDropdown.Item>
               </NavDropdown>
               <div className={`${css.navDivider} vr`} />
-              <Nav.Link href="#project" className={`${css.navLink} navbarLink`}>
+              <Nav.Link
+                href="/projects"
+                className={`${css.navLink} navbarLink`}
+              >
                 Project
               </Nav.Link>
               <div className={`${css.navDivider} vr`} />
-              <Nav.Link href="#contact" className={`${css.navLink} navbarLink`}>
+              <Nav.Link href="/contact" className={`${css.navLink} navbarLink`}>
                 Contact
               </Nav.Link>
             </Nav>

@@ -1,8 +1,10 @@
 import Container from "react-bootstrap/Container";
 import css from "./NotFoundPage.module.css";
 import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
 
 const NotFoundPage = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className={css.notFound}>
@@ -15,7 +17,13 @@ const NotFoundPage = () => {
             <p className={css.text_little}>
               Let’s get you to where you need to be.
             </p>
-            <Button className={css.backButton} type="button">
+            <Button
+              className={css.backButton}
+              type="button"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
               Back to home
             </Button>
           </div>

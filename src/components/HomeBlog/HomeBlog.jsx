@@ -18,7 +18,7 @@ const HomeBlog = () => {
           <h2 className={css.homeBlog_headline}>Our Latest News</h2>
           <ul className={css.blogList}>
             <li className={css.blogItem}>
-              <a href="/" className={css.blogItem_photoLink}>
+              <a href="/blog/id" className={css.blogItem_photoLink}>
                 <img src={blog_1} alt="blog appearance" className={css.block} />
                 <div className={css.photoLink_overlay}>
                   <div className={css.photoLink_overlay_button}>
@@ -28,7 +28,7 @@ const HomeBlog = () => {
               </a>
               <img src={date_1} alt="date" />
               <div className={css.blogItem_text_div}>
-                <a href="/" className={css.blogItem_headline}>
+                <a href="/blog/id" className={css.blogItem_headline}>
                   Inland freight a worthy solution for your business
                 </a>
                 <p className={css.blogItem_text}>
@@ -44,7 +44,7 @@ const HomeBlog = () => {
               </div>
             </li>
             <li className={css.blogItem}>
-              <a href="/" className={css.blogItem_photoLink}>
+              <a href="/blog/id" className={css.blogItem_photoLink}>
                 <img src={blog_2} alt="blog appearance" />
                 <div className={css.photoLink_overlay}>
                   <div className={css.photoLink_overlay_button}>
@@ -54,7 +54,7 @@ const HomeBlog = () => {
               </a>
               <img src={date_2} alt="date" />
               <div className={css.blogItem_text_div}>
-                <a href="/" className={css.blogItem_headline}>
+                <a href="/blog/id" className={css.blogItem_headline}>
                   How technology can help redraw the supply chain map
                 </a>
                 <p className={css.blogItem_text}>
@@ -70,7 +70,7 @@ const HomeBlog = () => {
               </div>
             </li>
             <li className={css.blogItem}>
-              <a href="/" className={css.blogItem_photoLink}>
+              <a href="/blog/id" className={css.blogItem_photoLink}>
                 <img src={blog_3} alt="blog appearance" />
                 <div className={css.photoLink_overlay}>
                   <div className={css.photoLink_overlay_button}>
@@ -80,7 +80,7 @@ const HomeBlog = () => {
               </a>
               <img src={date_3} alt="date" />
               <div className={css.blogItem_text_div}>
-                <a href="/" className={css.blogItem_headline}>
+                <a href="/blog/id" className={css.blogItem_headline}>
                   Five things you should have ready for your broker
                 </a>
                 <p className={css.blogItem_text}>

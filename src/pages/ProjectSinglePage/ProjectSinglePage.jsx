@@ -1,17 +1,17 @@
-import TransportationMain from "../../components/TransportationMain/TransportationMain";
+import ProjectSingleMain from "../../components/ProjectSingleMain/ProjectSingleMain";
 import Container from "react-bootstrap/Container";
-import css from "./TransportationPage.module.css";
-import project_details_photo from "../../images/transportationPage/project_details_photo.jpg";
-import storage_photo from "../../images/transportationPage/storage_photo.jpg";
-import photo_1 from "../../images/galleryList/photo_1.jpg";
-import photo_2 from "../../images/galleryList/photo_2.jpg";
-import photo_3 from "../../images/galleryList/photo_3.jpg";
-import overlay from "../../images/galleryList/overlay.png";
+import css from "./ProjectSinglePage.module.css";
+import project_details_photo from "../../images/projectSinglePage/project_details_photo.jpg";
+import storage_photo from "../../images/projectSinglePage/storage_photo.jpg";
+import photo_1 from "../../images/galleryProjects/photo_1.jpg";
+import photo_2 from "../../images/galleryProjects/photo_2.jpg";
+import photo_3 from "../../images/galleryProjects/photo_3.jpg";
+import overlay from "../../images/galleryProjects/overlay.png";
 
-const TransportationPage = () => {
+const ProjectSinglePage = () => {
   return (
     <>
-      <TransportationMain />
+      <ProjectSingleMain />
       <section className={`${css.projectDetails} ${css.section}`}>
         <Container>
           <div className={css.projectDetails_allPartSection}>
@@ -115,7 +115,7 @@ const TransportationPage = () => {
               <h2>Related Project</h2>
               <ul className={css.galleryList}>
                 <li className={css.galleryItem}>
-                  <a href="/" className={css.galleryItem_photoLink}>
+                  <a href="/projects/id" className={css.galleryItem_photoLink}>
                     <img
                       src={photo_1}
                       alt="gallery appearance"
@@ -127,7 +127,7 @@ const TransportationPage = () => {
                   </a>
                 </li>
                 <li className={css.galleryItem}>
-                  <a href="/" className={css.galleryItem_photoLink}>
+                  <a href="/projects/id" className={css.galleryItem_photoLink}>
                     <img
                       src={photo_2}
                       alt="gallery appearance"
@@ -139,7 +139,7 @@ const TransportationPage = () => {
                   </a>
                 </li>
                 <li className={css.galleryItem}>
-                  <a href="/" className={css.galleryItem_photoLink}>
+                  <a href="/projects/id" className={css.galleryItem_photoLink}>
                     <img
                       src={photo_3}
                       alt="gallery appearance"
@@ -159,4 +159,4 @@ const TransportationPage = () => {
   );
 };
 
-export default TransportationPage;
+export default ProjectSinglePage;

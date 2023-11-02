@@ -1,0 +1,11 @@
+.projectMain {
+  background: url("../../images/projectMain/bg_project_main.png") no-repeat,
+    url("../../images/projectMain/bg_project_main_photo.jpg") no-repeat;
+  background-size: cover, cover;
+}
+
+.allPartSection {
+  height: 419px;
+  color: white;
+  padding-top: 119px;
+}
