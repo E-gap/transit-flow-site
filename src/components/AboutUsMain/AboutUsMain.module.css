@@ -1,6 +1,6 @@
 .aboutUsMain {
-  background: url("../../images/aboutUsMain/bg_about_us_main.png") no-repeat,
-    url("../../images/aboutUsMain/bg_about_us_main_photo.jpg") no-repeat;
+  background: url("../../images/bg_main_all/bg_main.png") no-repeat,
+    url("../../images/bg_main_all/bg_about_us_main_photo.jpg") no-repeat;
   background-size: cover, cover;
 }
 

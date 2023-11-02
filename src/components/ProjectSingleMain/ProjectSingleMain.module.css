@@ -1,8 +1,6 @@
 .projectSingleMain {
-  background: url("../../images/projectSinglePage/bg_project_single_main.png")
-      no-repeat,
-    url("../../images/projectSinglePage/bg_project_single_main_photo.jpg")
-      no-repeat;
+  background: url("../../images/bg_main_all/bg_main.png") no-repeat,
+    url("../../images/bg_main_all/bg_project_single_main_photo.jpg") no-repeat;
   background-size: cover, cover;
   background-position: center;
 }

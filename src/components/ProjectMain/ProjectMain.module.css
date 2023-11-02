@@ -1,6 +1,6 @@
 .projectMain {
-  background: url("../../images/projectMain/bg_project_main.png") no-repeat,
-    url("../../images/projectMain/bg_project_main_photo.jpg") no-repeat;
+  background: url("../../images/bg_main_all/bg_main.png") no-repeat,
+    url("../../images/bg_main_all/bg_project_main_photo.jpg") no-repeat;
   background-size: cover, cover;
 }
 

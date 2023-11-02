@@ -1,8 +1,6 @@
 .serviceSingleMain {
-  background: url("../../images/serviceSingleMain/bg_service_single_main.png")
-      no-repeat,
-    url("../../images/serviceSingleMain/bg_service_single_main_photo.jpg")
-      no-repeat;
+  background: url("../../images/bg_main_all/bg_main.png") no-repeat,
+    url("../../images/bg_main_all/bg_service_single_main_photo.jpg") no-repeat;
   background-size: cover, cover;
 }
 

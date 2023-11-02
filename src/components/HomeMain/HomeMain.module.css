@@ -1,6 +1,8 @@
 .homeMain {
-  background-image: url("../../images/homeMain/bg-home-main.jpg");
-  background-size: cover;
+  background: url("../../images/bg_main_all/bg_main.png") no-repeat,
+    url("../../images/bg_main_all/bg-home-main.jpg") no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
 }
 
 .allPartSection {
