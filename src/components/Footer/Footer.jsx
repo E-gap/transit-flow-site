@@ -178,6 +178,9 @@ const Footer = () => {
           </Row>
         </Container>
       </div>
+      <p className={css.rights}>
+        Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.
+      </p>
     </footer>
   );
 };
